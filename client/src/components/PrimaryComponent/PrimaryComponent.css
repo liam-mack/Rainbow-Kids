@@ -79,6 +79,7 @@ p + p {
 
 .primary__hero-img-wrapper {
   max-width: 555px;
+  text-align: center;
 }
 
 .primary__hero-img {
