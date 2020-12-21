@@ -1,0 +1,6 @@
+.staff__hero-section{
+    padding: 160px 0;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #FAB96C 50%, #FAB96C );
+    background-size: cover;
+    background-repeat: no-repeat;
+}

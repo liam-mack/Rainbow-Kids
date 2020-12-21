@@ -15,8 +15,8 @@ textarea {
     width: 100%;
     padding: 1rem;
     margin-top: 5px;
-    border-radius: 15px;
-    outline-color: #ffe838;
+    border-radius: 30px;
+    outline-color: #2e368f;
 }
   
 input[type="submit"] {
