@@ -1,0 +1,52 @@
+.col {
+    display: flex;
+    flex: 1;
+    /* max-width: 50%; */
+    flex-basis: 40%;
+}
+
+.yellowBg {
+    background-color: #FFD105;
+}
+
+.peachBg {
+    background-color: #FAB96C;
+}
+
+.home__multi-img {
+    max-width: 80%;
+    max-height: 400px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.home__multi-pic {
+    max-width: 80%;
+    max-height: 400px;
+    border-radius: 100%;
+    margin-top: 1rem;
+    margin-right: 0;
+    display: block;
+    margin: auto;
+}
+
+.pictureHeading, .pictureSubtitle {
+    color: black
+}
+
+.pictureHeading {
+    font-weight: 800;
+    text-align: center;
+}
+
+.pictureSubtitle {
+    font-style: italic;
+    text-align: center;
+}
+
+.modalBtn {
+    display: block;
+    margin: auto;
+}

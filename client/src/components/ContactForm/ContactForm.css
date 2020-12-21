@@ -1,0 +1,35 @@
+form {
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 1.6rem
+}
+
+form label {
+    font-size: 2rem;
+}
+  
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 5px;
+    border-radius: 15px;
+    outline-color: #ffe838;
+}
+  
+input[type="submit"] {
+    width: initial;
+    background-color: #eee;
+    color: #2e368f;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+  
+input[type="submit"]:hover {
+color: #2e368f;
+background-color: #ffe838;
+}
