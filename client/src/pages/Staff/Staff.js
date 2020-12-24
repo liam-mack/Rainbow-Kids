@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import HeroComponent from "../../components/PrimaryComponent/PrimaryComponent";
+import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import BannerImage from "../../components/BannerImage/BannerImage"
 import Searchbar from '../../components/Searchbar/Searchbar';
 import StaffComponent from "../../components/StaffComponent/StaffComponent"
@@ -41,7 +41,7 @@ let displayedDirectory =  db.filter((employee) => {
       <StaffComponent />
       <StaffComponent />
       <StaffComponent />
-      <HeroComponent {...staffObj}></HeroComponent>
+      <PrimaryComponent {...staffObj}></PrimaryComponent>
       
     </div>
   );

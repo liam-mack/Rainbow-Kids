@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './PrimaryComponent.css';
 
 
-function HeroComponent({
+function PrimaryComponent({
     lightBg, topLine, lightText, lightTextDescription, headline, description, description2, description3, buttonLabel, buttonLink, img, alt, imgStart, includesList, includesHeaders, header1, header2, listArray
 }) {
     return (
@@ -45,4 +45,4 @@ function HeroComponent({
     )
 }
 
-export default HeroComponent
+export default PrimaryComponent

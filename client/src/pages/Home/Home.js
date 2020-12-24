@@ -1,5 +1,5 @@
 import React from "react";
-import HeroComponent from "../../components/HeroComponent/HeroComponent";
+import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import MultiPictureComponent from "../../components/MultiPictureComponent/MultiPictureComponent";
 import BannerImage from "../../components/BannerImage/BannerImage"
 import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive} from "./HomeData"
@@ -9,11 +9,11 @@ function Home() {
   return (
     <div>
       <BannerImage name='hero' banner="HomeBanner" alt="Home banner"/>
-      <HeroComponent {...homeObjOne} />
+      <PrimaryComponent {...homeObjOne} />
       <MultiPictureComponent {...homeObjTwo} />
-      <HeroComponent {...homeObjThree} />
+      <PrimaryComponent {...homeObjThree} />
       <MultiPictureComponent {...homeObjFour} />
-      <HeroComponent {...homeObjFive} />
+      <PrimaryComponent {...homeObjFive} />
     </div>
   );
 }
