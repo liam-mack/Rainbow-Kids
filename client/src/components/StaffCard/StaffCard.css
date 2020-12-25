@@ -1,0 +1,20 @@
+.staff-wrapper {
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #FAB96C 50%, #FAB96C );
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    min-width: 33%;
+    padding-bottom: 1em;
+}
+
+.staff-profile {
+    /* margin: 1em 0 1em 0; */
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 100%;
+    margin-top: 5em
+    
+}
+
+

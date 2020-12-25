@@ -56,7 +56,7 @@ export const homeObjFour= {
     headline: "Staff and Educators",
     description: "The educators of Rainbow Kidschool are all registered with the College of Early Childhood Educators",
     buttonLabel: "Read More",
-    buttonLink: "/Programs",
+    buttonLink: "/Staff",
     imgStart: "start",
     img: "/staffimages/Roxeanne.JPG",
     img2: "/staffimages/Lara.jpg",

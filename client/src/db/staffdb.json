@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Roxeanne",
+        "position": "Director, RECE",
+        "image": "/staffimages/Roxeanne.JPG",
+        "biography": ""
+    },
+    {
+        "id": 2,
+        "name": "Lara",
+        "position": "RECE",
+        "image": "/staffimages/Lara.JPG",
+        "biography": ""
+    },
+    {
+        "id": 3,
+        "name": "Jennifer",
+        "position": "RECE",
+        "image": "/staffimages/Jennifer.JPG",
+        "biography": ""
+    },
+    {
+        "id": 4,
+        "name": "Simone",
+        "position": "RECE",
+        "image": "/staffimages/Simone.JPG",
+        "biography": ""
+    },
+    {
+        "id": 5,
+        "name": "Taylor",
+        "position": "RECE",
+        "image": "/staffimages/Taylor.JPG",
+        "biography": ""
+    },
+    {
+        "id": 6,
+        "name": "Jaca",
+        "position": "Assistance Director, RECE",
+        "image": "/staffimages/Jaca.JPG",
+        "biography": ""
+    },
+    {
+        "id": 7,
+        "name": "Joanne",
+        "position": "Cook, RECE",
+        "image": "/staffimages/Joanne.JPG",
+        "biography": ""
+    },
+    {
+        "id": 8,
+        "name": "Mano",
+        "position": "RECE",
+        "image": "/staffimages/Mano.JPG",
+        "biography": ""
+    }
+]

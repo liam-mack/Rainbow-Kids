@@ -1,9 +1,12 @@
 import React, { useState } from "react";
-import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import BannerImage from "../../components/BannerImage/BannerImage"
+import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import Searchbar from '../../components/Searchbar/Searchbar';
 import StaffComponent from "../../components/StaffComponent/StaffComponent"
-import employees from '../../staffdb.json';
+import StaffDirectory from "../../components/StaffDirectory/StaffDirectory";
+
+import "./Staff.css"
+import employees from '../../db/staffdb.json';
 import {staffObj} from "./StaffData"
 
 function Staff() {
@@ -38,9 +41,9 @@ let displayedDirectory =  db.filter((employee) => {
       <BannerImage name='hero' banner="StaffBanner" alt="Staff banner"/>
       <Searchbar search = {query} sortingName = {startSearchQuery} startSorting = {searchQuery} />
       {/* <Directory seeds ={displayedDirectory}/> */}
-      <StaffComponent />
-      <StaffComponent />
-      <StaffComponent />
+      <div className = "staffDirectoryWrapper">
+      < StaffDirectory staff = {displayedDirectory} />
+      </div>
       <PrimaryComponent {...staffObj}></PrimaryComponent>
       
     </div>
