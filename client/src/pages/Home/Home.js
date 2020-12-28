@@ -8,7 +8,7 @@ import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour, homeObjFive} from "./
 function Home() {
   return (
     <div>
-      <BannerImage name='hero' banner="HomeBanner" alt="Home banner"/>
+      <BannerImage name='hero' banner="HomeBanner" alt="Home banner" title='Rainbow Kidschool' desc='Children learning through active investigation'/>
       <PrimaryComponent {...homeObjOne} />
       <MultiPictureComponent {...homeObjTwo} />
       <PrimaryComponent {...homeObjThree} />

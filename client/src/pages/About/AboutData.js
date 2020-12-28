@@ -1,26 +1,26 @@
 export const aboutObjOne= { 
-    lightBg: false,
-    lightText: false,
-    lightTextDescription: false,
+    bgColour: "pink",
+    lightText: true,
+    lightTextDescription: true,
     headline: "Our Philosophy",
     description: "Our philosophy incorporates theoretical principles of such renowned child psychologists as Piaget and Erikson. The program, reflecting its philosophical base, is developmental in nature and allows children to grow and progress at their own rate. We believe that Rainbow Kidschool has to provide an environment conducive to meeting the needs of the whole child, in order to stimulate a love of learning.  We believe that by encouraging children to respect others and the environment, they will discover that learning is a rewarding experience.",
 }
 
 export const aboutObjTwo= { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     headline: "Positive Interaction",
     description: "Positive interaction is viewed as a learning experience. The rules, which are clearly explained to the children, concern their social and physical safety and well-being. The educators help children to see the consequences of their behaviour. Young children benefit from an affirming approach that encourages positive interactions with other children and with adults, rather than from a negative or punitive approach to managing unwanted behaviour.",
     buttonLabel: "Meet Our Staff!",
     buttonLink: "/Staff",
+    buttonColour: "greyBtn",
     imgStart: "start",
     img: "/images/StaffReading.jpg",
     alt: ""
 }
 
 export const aboutObjThree= { 
-    lightBg: false,
+    bgColour: "grey",
     lightText: false,
     lightTextDescription: false,
     headline: "Volunteers & Students",
@@ -32,7 +32,6 @@ export const aboutObjThree= {
 }
 
 export const aboutObjFour= { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     headline: "Parents & Guardians",

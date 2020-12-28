@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import BannerImage from "../../components/BannerImage/BannerImage"
 import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import Searchbar from '../../components/Searchbar/Searchbar';
-import StaffComponent from "../../components/StaffComponent/StaffComponent"
 import StaffDirectory from "../../components/StaffDirectory/StaffDirectory";
 
 import "./Staff.css"
@@ -38,7 +37,7 @@ let displayedDirectory =  db.filter((employee) => {
 
   return (
     <div>
-      <BannerImage name='hero' banner="StaffBanner" alt="Staff banner"/>
+      <BannerImage name='hero' banner="StaffBanner" alt="Staff banner" title="Meet our Educators" desc="The educators of Rainbow Kidschool are all registered with the College of Early Childhood Educators. We are particularly proud that our educators have been with Rainbow Kidschool for many years"/>
       <Searchbar search = {query} sortingName = {startSearchQuery} startSorting = {searchQuery} />
       {/* <Directory seeds ={displayedDirectory}/> */}
       <div className = "staffDirectoryWrapper">

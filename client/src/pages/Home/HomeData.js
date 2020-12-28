@@ -1,26 +1,27 @@
 import logo from "../../icons/logo.svg";
 
 export const homeObjOne= { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     headline: "Our Mission and Philosophy",
     description: "As a bridge between home and formal schooling, we offer a treasured early learning expereince in an engaging, inclusive, social setting.",
     buttonLabel: "Read More",
     buttonLink: "/About",
+    buttonColour: "pinkBtn",
     imgStart: "",
     img: "",
     alt: ""
 }
 
 export const homeObjTwo= { 
-    lightBg: true,
+    bgColour: "yellow",
     lightText: false,
     lightTextDescription: false,
     headline: "Programs and Registration",
     description: "As a bridge between home and formal schooling, we offer a treasured early learning expereince in an engaging, inclusive, social setting.",
     buttonLabel: "Read More",
     buttonLink: "/Programs",
+    buttonColour: "whiteBtn",
     imgStart: "start",
     img: "/images/RideauCanalFieldTrip.jpg",
     img2: "/images/KindergartenRoom_1.jpg",
@@ -35,7 +36,6 @@ export const homeObjTwo= {
 }
 
 export const homeObjThree = { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     // topLine: "Testing Topline",
@@ -43,6 +43,7 @@ export const homeObjThree = {
     description: "View our upcoming events and keep updated with the activities and changes to our program.",
     buttonLabel: "Read More",
     buttonLink: "/News",
+    buttonColour: "purpleBtn",
     imgStart: "",
     img: "/images/MainEventBooth.jpg",
     alt: ""
@@ -50,13 +51,14 @@ export const homeObjThree = {
 
 export const homeObjFour= { 
     isStaff: true,
-    lightBg: false,
+    bgColour: "peach",
     lightText: false,
     lightTextDescription: false,
     headline: "Staff and Educators",
     description: "The educators of Rainbow Kidschool are all registered with the College of Early Childhood Educators",
     buttonLabel: "Read More",
     buttonLink: "/Staff",
+    buttonColour: "whiteBtn",
     imgStart: "start",
     img: "/staffimages/Roxeanne.JPG",
     img2: "/staffimages/Lara.jpg",
@@ -71,7 +73,6 @@ export const homeObjFour= {
 }
 
 export const homeObjFive= { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     headline: "Contact Us",
@@ -80,6 +81,7 @@ export const homeObjFive= {
     description3: 'rainbowkidschool@email.com',
     buttonLabel: "Read More",
     buttonLink: "/Contact",
+    buttonColour: "limeBtn",
     imgStart: "",
     img: logo,
     alt: ""

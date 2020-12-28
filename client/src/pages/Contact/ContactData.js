@@ -1,12 +1,11 @@
 export const contactObjOne= { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     headline: "Get in touch!",
 }
 
 export const contactObjTwo= { 
-    lightBg: false,
+    bgColour: "lime",
     lightText: false,
     lightTextDescription: false,
     description: "613-235-2255 63 Evelyn Avenue Ottawa, Canada K1S 0C6 carletonpreschool@gmail.com",

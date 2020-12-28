@@ -20,7 +20,7 @@ function StaffCard({
             <em className="staff-position"> {position} </em>
             <strong> {biography} </strong>
             <br/>
-            <Button />            
+            <Button buttonColour="whiteBtn">Details</Button>            
         </div>
     )
 }

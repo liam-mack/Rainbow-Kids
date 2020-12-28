@@ -48,16 +48,18 @@
 
 .BannerTitle {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .BannerDescription {
     position: absolute;
-    top: 45%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
 }

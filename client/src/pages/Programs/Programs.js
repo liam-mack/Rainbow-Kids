@@ -7,7 +7,7 @@ import MultiPictureComponent from "../../components/MultiPictureComponent/MultiP
 function Programs() {
   return (
     <div>
-      <BannerImage name='hero' banner="ProgramBanner" alt="Program banner"/>
+      <BannerImage name='hero' banner="ProgramBanner" alt="Program banner" title="Programs and Registration" desc="Full program of active learning for preschool and school-aged children"/>
       <PrimaryComponent {...programObjOne}/>
       <PrimaryComponent {...programObjTwo}/>
       <MultiPictureComponent {...programObjThree}/>

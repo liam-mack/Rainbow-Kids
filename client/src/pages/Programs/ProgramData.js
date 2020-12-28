@@ -1,5 +1,4 @@
 export const programObjOne= { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     headline: "Our Approach",
@@ -12,7 +11,7 @@ export const programObjOne= {
 
 export const programObjTwo= { 
     includesList: true,
-    lightBg: false,
+    bgColour: "yellow",
     lightText: false,
     lightTextDescription: false,
     headline: "Our Goals",
@@ -27,12 +26,12 @@ export const programObjTwo= {
 export const programObjThree= { 
     isPicture: true,
     multipleButtons: true,
-    lightBg: false,
     lightText: false,
     lightTextDescription: false,
     headline: "Program Offerings",
     description: "Early Learning for Every Child Today (ELECT) is a guide that describes how young children learn and develop and is used to support curriculum in Ontario’s early childhood settings.  ELECT is intended as a support to the Ontario Day Nurseries Act and has been prepared for use by early childhood educators.  It complements curriculum and features a continuum of developmental skills and shared language that supports early childhood educators across childhood settings.",
-    buttonLabel: "Read More",
+    buttonLabel: "Details",
+    buttonColour: "yellowBtn",
     imgStart: "start",
     img: "/images/RideauCanalFieldTrip.jpg",
     img2: "/images/KindergartenRoom_1.jpg",
@@ -47,7 +46,7 @@ export const programObjThree= {
 }
 
 export const programObjFour= { 
-    lightBg: false,
+    bgColour: "yellow",
     lightText: false,
     lightTextDescription: false,
     headline: "Nutrition",
@@ -63,7 +62,6 @@ export const programObjFour= {
 }
 
 export const programObjFive= { 
-    lightBg: true,
     lightText: false,
     lightTextDescription: false,
     headline: "Registration",

@@ -48,7 +48,7 @@ p + p {
 
 .heading {
   margin-bottom: 24px;
-  font-size: 60px;
+  font-size: 3em;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
@@ -62,8 +62,28 @@ p + p {
   color: #1c2237;
 }
 
-.darkBg {
-  background-color: #FFD105;
+.yellow {
+  background-color: rgba(255, 209, 5, 0.65);
+}
+
+.peach {
+  background-color: #FAB96C;
+}
+
+.pink {
+  background-color: rgba(237, 28, 36, 0.65)
+}
+
+.grey {
+  background-color: #F4F4F4;
+}
+
+.purple {
+  background-color: #662D91 65%;
+}
+
+.lime {
+  background-color: #E0E98F;
 }
 
 .primary__hero-subtitle {
@@ -74,8 +94,49 @@ p + p {
   line-height: 24px;
 }
 
-.primary__hero-list {
-  color: blue
+li p {
+  color: black;
+  font-weight: 550;
+  padding: 0;
+  margin: 0;
+}
+
+.rainbow::marker{
+  font-family: "RWATangoCharlie";
+  content: '*';
+  font-size: 1.9em;
+
+}
+
+.li0 {
+  color: #EC1D25;
+}
+
+.li1 {
+  color:  #F7941D;
+}
+
+.li2 {
+  color: #FED006;
+}
+
+.li3 {
+  color:  #C5D82D;
+
+}
+
+.li4 {
+  color: #36C1CE;
+
+}
+
+.li5 {
+  color:  #662E91;
+
+}
+
+.li6 {
+  color:  #F7941D;
 }
 
 .primary__hero-img-wrapper {

@@ -5,11 +5,11 @@ import './PrimaryComponent.css';
 
 
 function PrimaryComponent({
-    lightBg, topLine, lightText, lightTextDescription, headline, description, description2, description3, buttonLabel, buttonLink, img, alt, imgStart, includesList, includesHeaders, header1, header2, listArray
+    bgColour, topLine, lightText, lightTextDescription, headline, description, description2, description3, buttonLabel, buttonColour, buttonLink, img, alt, imgStart, includesList, includesHeaders, header1, header2, listArray
 }) {
     return (
         <>
-            <div className={lightBg ? 'primary__hero-section' : 'primary__hero-section darkBg'}>
+            <div className={bgColour ? `primary__hero-section ${bgColour}` : 'primary__hero-section '}>
                 <div className= "container">
                     <div className= "row primary__hero-row"
                     style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
@@ -21,7 +21,7 @@ function PrimaryComponent({
                                 <p className={lightTextDescription ? 'primary__hero-subtitle' : 'primary__hero-subtitle dark'}>{ description }</p>
                                     { includesList && <ul className="styledList">
                                         {listArray.map(function(i, idx){
-                                            return (<li className={lightText ? "primary__hero-list" : "primary__hero-list dark" } key={idx}>{i}</li>)
+                                            return (<li className={`rainbow li${idx}`} key={idx}><p>{i}</p></li>)
                                         })}
 
                                     </ul>}
@@ -29,7 +29,7 @@ function PrimaryComponent({
                                 <p className={lightTextDescription ? 'primary__hero-subtitle' : 'primary__hero-subtitle dark'}>{ description2 }</p>
                                 <p className={lightTextDescription ? 'primary__hero-subtitle' : 'primary__hero-subtitle dark'}>{ description3 }</p>
                                 <Link to={buttonLink}>
-                                    {buttonLink && <Button buttonColour="pink">{buttonLabel}</Button>}
+                                    {buttonLink && <Button buttonColour={buttonColour}>{buttonLabel}</Button>}
                                 </Link>
                             </div>
                         </div>
