@@ -13,7 +13,7 @@
     background-color: #FAB96C;
 }
 
-.primary__multi-img {
+.primary__pic-img {
     max-width: 80%;
     max-height: 400px;
     border-radius: 5px;
@@ -22,14 +22,14 @@
     margin: auto;
 }
 
-.primary__multi-pic {
+.primary__pic-staff {
     max-width: 80%;
     max-height: 400px;
     border-radius: 100%;
-    margin-top: 1rem;
     margin-right: 0;
     display: block;
     margin: auto;
+    margin-top: 1em;
 }
 
 .pictureHeading, .pictureSubtitle {

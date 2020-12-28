@@ -24,19 +24,19 @@ function MultiPictureComponent({
                         </div>
                         <div className='col'>
                             <div className="primary__hero-img-wrapper">
-                                <img src={img} alt={img} className= {isStaff? "primary__multi-pic" : "primary__multi-img" } />
+                                <img src={img} alt={img} className= {isStaff? "primary__pic-staff" : "primary__pic-img" } />
                                 <p className="pictureHeading">{title}</p>
                                 <p className="pictureSubtitle">{subtitle}</p>
                                 {multipleButtons && <Button buttonColour="pink">{buttonLabel}</Button>}
                             </div>
                             <div className="primary__hero-img-wrapper">
-                                <img src={img2} alt={img2} className= {isStaff? "primary__multi-pic" : "primary__multi-img" }/>
+                                <img src={img2} alt={img2} className= {isStaff? "primary__pic-staff" : "primary__pic-img" }/>
                                 <p className="pictureHeading">{title2}</p>
                                 <p className="pictureSubtitle">{subtitle2}</p>
                                 {multipleButtons && <Button buttonColour="pink">{buttonLabel}</Button>}
                             </div>
                             <div className="primary__hero-img-wrapper">
-                                <img src={img3} alt={img3} className= {isStaff? "primary__multi-pic" : "primary__multi-img" } />
+                                <img src={img3} alt={img3} className= {isStaff? "primary__pic-staff" : "primary__pic-img" } />
                                 <p className="pictureHeading">{title3}</p>
                                 <p className="pictureSubtitle">{subtitle3}</p>
                                 {multipleButtons && <Button buttonColour="pink">{buttonLabel}</Button>}
