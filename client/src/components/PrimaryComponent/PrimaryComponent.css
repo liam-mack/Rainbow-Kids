@@ -88,9 +88,9 @@ p + p {
 
 .primary__hero-subtitle {
   max-width: 100%;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
   font-size: 18px;
-  font-style: italic;
+  /* font-style: italic; */
   line-height: 24px;
 }
 
@@ -153,6 +153,10 @@ li p {
   margin-right: 0;
   margin-left: 10rem;
   padding-right: 0;
+}
+
+.home-ital {
+  font-style: italic;
 }
 
 img {

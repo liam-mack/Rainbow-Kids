@@ -1,14 +1,14 @@
-$color-primary: #4298C3;
+$color-primary: #c4c4c4;
 $color-light: white;
 $spacing: 50px;
 $radius: 4px;
 
-$background: #252827;
+$background: #c4c4c4;
 
 $date: 120px;
 $dotborder: 4px;
-$dot: 11px;
-$line: 4px;
+$dot: 15px;
+$line: 3px;
 
 $font-title: 'Oswald', sans-serif;
 $font-text: 'Source Sans Pro', sans-serif;
@@ -65,7 +65,7 @@ strong {
     }
 
     &:before {
-      left: ((($date * 0.6) + $spacing + $line + $dot + ($dotborder * 2)) * 1.5) * -1;    
+      left: ((($date * 0.6) + $spacing + $line + $dot + ($dotborder * 2)) * 1.5) * -1 ;    
       color: fade($color-light, 40%);    
       content: attr(data-date);
       text-align: right;
@@ -77,7 +77,7 @@ strong {
 
     &:after {
       box-shadow: 0 0 0 $dotborder fade($color-primary,100%);    
-      left: ($spacing + $line + ($dot * 0.35)) * -1;        
+      left: ($spacing + $line + ($dot * 0.35) +1) * -1;        
       background: lighten($background,5%);    
       border-radius: 50%;  
       height: $dot;
