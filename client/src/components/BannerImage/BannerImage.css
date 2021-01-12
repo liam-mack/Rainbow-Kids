@@ -61,6 +61,7 @@
     transform: translate(-50%, -50%);
     font-style: italic;
     font-size: 1.2em;
+    /* font-size: 1.2em; */
     text-align: center;
 }
 
@@ -70,7 +71,7 @@
     }
 
     .BannerDescription{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 }
 
@@ -80,7 +81,7 @@
     }
 
     .BannerDescription{
-        font-size: .9em;
+        font-size: .7em;
     }
 }
 

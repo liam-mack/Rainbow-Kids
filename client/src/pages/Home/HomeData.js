@@ -66,9 +66,9 @@ export const homeObjFour= {
     title: "Roxeanne",
     title2: "Lara",
     title3: "Jennifer",
-    subtitle: "Position",
-    subtitle2: "Position",
-    subtitle3: "Position",
+    subtitle: "Director, RECE",
+    subtitle2: "RECE",
+    subtitle3: "RECE",
     alt: ""
 }
 

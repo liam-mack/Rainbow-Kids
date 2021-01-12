@@ -3,10 +3,13 @@ import BannerImage from "../../components/BannerImage/BannerImage"
 import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import Searchbar from '../../components/Searchbar/Searchbar';
 import StaffDirectory from "../../components/StaffDirectory/StaffDirectory";
+import ScrollToTopOnMount from "../../components/ScrollToTopOnMount/ScrollToTopOnMount";
+
 
 import "./Staff.css"
 import employees from '../../db/staffdb.json';
-import {staffObj} from "./StaffData"
+import {staffObj} from "./StaffData";
+import Footer from "../../components/Footer/Footer";
 
 function Staff() {
   const [query, setQuery] = useState("");
@@ -37,6 +40,7 @@ let displayedDirectory =  db.filter((employee) => {
 
   return (
     <div>
+      <ScrollToTopOnMount />
       <BannerImage name='hero' banner="StaffBanner" alt="Staff banner" title="Meet our Educators" desc="The educators of Rainbow Kidschool are all registered with the College of Early Childhood Educators. We are particularly proud that our educators have been with Rainbow Kidschool for many years"/>
       <Searchbar search = {query} sortingName = {startSearchQuery} startSorting = {searchQuery} />
       {/* <Directory seeds ={displayedDirectory}/> */}
@@ -44,7 +48,7 @@ let displayedDirectory =  db.filter((employee) => {
       < StaffDirectory staff = {displayedDirectory} />
       </div>
       <PrimaryComponent {...staffObj}></PrimaryComponent>
-      
+      <Footer />      
     </div>
   );
 }

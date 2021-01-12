@@ -1,8 +1,11 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
+import ScrollToTopOnMount from "../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 
 function About() {
   return (
     <div>
+      <ScrollToTopOnMount />
       <h1>News Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
@@ -11,6 +14,7 @@ function About() {
         semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
+      <Footer />
     </div>
   );
 }
