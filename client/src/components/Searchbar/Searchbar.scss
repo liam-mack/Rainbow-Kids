@@ -10,3 +10,7 @@ header h1 {
 .searchbar {
     width: 50%
 }
+
+.searchbar:focus {
+    outline-width: 0;
+}

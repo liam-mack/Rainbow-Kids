@@ -22,7 +22,7 @@
 }
 
 .purple {
-    background-color: #662D91 65%;
+    background-color: rgba(102,45,145,0.65)
 }
 
 .lime {
@@ -57,6 +57,8 @@
     text-align: center;
 }
 
+
+/* Fix: make responsive */
 .pictureSubtitle {
     text-align: center;
     margin-bottom: 1em;

@@ -6,6 +6,7 @@ function StaffDirectory({staff}) {
         staff.map(e => (
             <StaffCard
             key={e.id}
+            id={e.id}
             name={e.name}
             image={e.image}
             position={e.position}

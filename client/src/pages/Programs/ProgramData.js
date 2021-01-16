@@ -52,7 +52,7 @@ export const programObjFour= {
     headline: "Nutrition",
     description: "Our developmental approach stimulates a love of learning in a way that allows children to progress at their own rate. We address the full range of child development needs; emotional, social, physical and cognitive which are the foundation to the building of self-confidence and personal esteem, nurturing each child to feel good about himself/ herself.",
     description2: "Our approach engages children in small group events (music, story telling, games, show and tell) that encourages accepting suggestions and directions from others, listening attentively, interacting positively with peers, respectingadults other than parents and recognizing their valued membership and contribution in broader social groups.",
-    description3: "**If your child has allergies of any kind, please advise the educators.  All allergies must be documented on the appropriate registration and medical forms.**",
+    description3: "If your child has allergies of any kind, please advise the educators.  All allergies must be documented on the appropriate registration and medical forms.",
     imgStart: "",
     img: "/images/CrackingEggs.jpg",
     alt: "Children crafting",
