@@ -1,11 +1,13 @@
-.staff-wrapper {
-    background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #FAB96C 50%, #FAB96C );
-    background-size: cover;
-    background-repeat: no-repeat;
+.staff-card {
+    background-color: #FAB96C;
     justify-content: center;
     text-align: center;
-    min-width: 33%;
+    min-width: 100%;
     padding-bottom: 1em;
+}
+
+.staff-card:nth-child(odd){
+    background-color: #ffffff;
 }
 
 .staff-profile {
@@ -13,8 +15,27 @@
     max-width: 300px;
     max-height: 300px;
     border-radius: 50%;
-    margin-top: 5em
+    margin-top: 3em
     
 }
 
 
+@media screen and (min-width: 784px) {
+    .staff-card {
+        min-width: calc(100%/3) !important;
+        min-width: 100%;
+        background-image: linear-gradient(to bottom, #ffffff, #ffffff 50%, #FAB96C 50%, #FAB96C );
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .staff-card:nth-child(7),.staff-card:nth-child(8) {
+        min-width: 50% !important;
+    }
+
+    
+/* 
+    .staff-profile{
+        font-size: 0.9em;
+    } */
+}

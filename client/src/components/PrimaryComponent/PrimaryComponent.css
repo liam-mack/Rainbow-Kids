@@ -7,15 +7,21 @@ h1{
   font-family: 'RWATangoCharlie';
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+p, a, label, input{
+  font-family: "Montserrat"
+}
+
 p + p {
   margin: 0;
   padding: 0;
 }
 
+/* Fix: increase padding-bottom on smaller viewports */
 .primary__hero-section {
   color: #fff;
-  margin-top: 1em;
-  /* padding: 160px 0; */
+  padding-bottom:2em;
 }
 
 .primary__hero-row {
@@ -31,8 +37,9 @@ p + p {
   align-content: stretch;
 }
 
+/* Fix: Margin misaligns multipictures */
 .col {
-  margin-bottom: 15px;
+  margin: 0 1em 1em 1em;
   /* padding-right: 15px;
   padding-left: 15px; */
   flex: 1;
@@ -79,7 +86,7 @@ p + p {
 }
 
 .purple {
-  background-color: #662D91 65%;
+  background-color: rgba(102,45,145,0.65)
 }
 
 .lime {
@@ -140,19 +147,20 @@ li p {
 }
 
 .primary__hero-img-wrapper {
-  max-width: 555px;
+  /* max-width: 555px; */
   text-align: center;
 }
 
+/* Fix after rescaling images */
 .primary__hero-img {
   max-width: 50%;
   max-height: 400px;
   min-width: 20em;
   border-radius: 5px;
   margin-top: 1rem;
-  margin-right: 0;
+  /* margin-right: 0;
   margin-left: 10rem;
-  padding-right: 0;
+  padding-right: 0; */
 }
 
 .home-ital {
@@ -188,6 +196,7 @@ img {
     max-width: 100%;
     min-width: 100%;
     display: block !important;
+    margin: 0;
     /* flex: auto !important;
     flex-basis: 100%; */
   }

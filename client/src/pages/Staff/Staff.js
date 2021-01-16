@@ -43,9 +43,8 @@ let displayedDirectory =  db.filter((employee) => {
       <ScrollToTopOnMount />
       <BannerImage name='hero' banner="StaffBanner" alt="Staff banner" title="Meet our Educators" desc="The educators of Rainbow Kidschool are all registered with the College of Early Childhood Educators. We are particularly proud that our educators have been with Rainbow Kidschool for many years"/>
       <Searchbar search = {query} sortingName = {startSearchQuery} startSorting = {searchQuery} />
-      {/* <Directory seeds ={displayedDirectory}/> */}
       <div className = "staffDirectoryWrapper">
-      < StaffDirectory staff = {displayedDirectory} />
+      <StaffDirectory staff = {displayedDirectory} />
       </div>
       <PrimaryComponent {...staffObj}></PrimaryComponent>
       <Footer />      

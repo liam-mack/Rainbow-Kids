@@ -5,6 +5,7 @@ import {aboutObjOne, aboutObjTwo, aboutObjThree, aboutObjFour} from "./AboutData
 import Timeline from "../../components/Timeline/Timeline";
 import ScrollToTopOnMount from "../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../components/Footer/Footer";
+import MultiPictureComponent from "../../components/MultiPictureComponent/MultiPictureComponent";
 
 
 function About() {
@@ -13,7 +14,7 @@ function About() {
       <ScrollToTopOnMount />
       <BannerImage name='hero' banner="AboutBanner" alt="About banner" title="About Us" desc="Rainbow Kidschool is a proud member of Child.Family.Connect Inc. Our network of centres is a resource-sharing partnership of five independently operated, non-profit, school-based child care centres."/>
       <Timeline />
-      <PrimaryComponent {...aboutObjOne} />
+      <MultiPictureComponent {...aboutObjOne} />
       <PrimaryComponent {...aboutObjTwo} />
       <PrimaryComponent {...aboutObjThree} />
       <PrimaryComponent {...aboutObjFour} />
