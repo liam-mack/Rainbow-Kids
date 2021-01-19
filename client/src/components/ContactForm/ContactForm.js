@@ -29,7 +29,7 @@ function Contact() {
       </div>
       <div className="col">
         <div className="primary__hero-img-wrapper">
-          <img src="/images/swingSet.jpg" alt="swingSet" className="primary__hero-img" />
+          <img src="/images/swingSet.jpg" alt="swingSet" className="primary__pic-img" />
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import "./PrimaryComponent.css";
 
+// Fix: clean up this mess of a component
 function PrimaryComponent({
   bgColour,
   topLine,
@@ -23,6 +24,7 @@ function PrimaryComponent({
   header1,
   header2,
   listArray,
+  logo
 }) {
   return (
     <>
@@ -105,7 +107,7 @@ function PrimaryComponent({
             {img && (
               <div className="col">
                 <div className="primary__hero-img-wrapper">
-                  <img src={img} alt={img} className="primary__hero-img" />
+                  <img src={img} alt={img} className={logo ? "primary__hero-img" : "primary__pic-img"} />
                 </div>
               </div>
             )}

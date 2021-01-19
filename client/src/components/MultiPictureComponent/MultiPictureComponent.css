@@ -30,10 +30,10 @@
 }
 
 .primary__pic-img {
-    max-width: 80%;
+    max-width: 90%;
     max-height: 400px;
     border-radius: 5px;
-    margin-top: 1rem;
+    margin-top: 1em !important;
     display: block;
     margin: auto;
 }

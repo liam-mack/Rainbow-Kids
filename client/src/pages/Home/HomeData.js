@@ -84,6 +84,7 @@ export const homeObjFive= {
     buttonColour: "limeBtn",
     imgStart: "",
     img: logo,
-    alt: ""
+    alt: "",
+    logo: true
 }
 

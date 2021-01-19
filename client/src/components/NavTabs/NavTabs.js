@@ -36,10 +36,13 @@ function NavTabs() {
 
     <>
       <div className="navbar">
-        <div className="navbar-container container">
-          <Link to="/" className="navbar-logo" onClick={closeHamburger}>
+      <Link to="/" className="navbar-logo" onClick={closeHamburger}>
             <img height={50} src={logo} alt="logo" />
           </Link>
+        <div className="navbar-container container">
+          {/* <Link to="/" className="navbar-logo" onClick={closeHamburger}>
+            <img height={50} src={logo} alt="logo" />
+          </Link> */}
           <div className="menu-icon" onClick={handleClick}>
           { click ? <FaTimes /> : <FaBars /> }
           </div>
