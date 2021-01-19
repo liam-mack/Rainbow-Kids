@@ -5,25 +5,15 @@ function Contact() {
   return (
     <div className="row primary__hero-row">
       <div className="col">
-        <form
-          id="contactForm"
-          action="https://formspree.io/xqkyrlvg"
-          method="POST"
-        >
-          <label for="Name">First Name (required)</label>
+        <form id="contactForm" action="https://formspree.io/xqkyrlvg" method="POST">
+          <label>First Name (required)</label>
           <input className="contactData"type="text" id="name" name="Name" required />
-          <label for="LastName">Last Name (required)</label>
+          <label>Last Name (required)</label>
           <input className="contactData"type="name" id="lastname" name="LastName" required />
-          <label for="Email">Your Email (required)</label>
+          <label>Your Email (required)</label>
           <input className="contactData"type="email" id="Email" name="Email" required />
-          <label for="elaborate">Your Message</label>
-          <textarea
-            className="contactData"
-            name="elaborate"
-            id="elaborate"
-            cols="20"
-            rows="10"
-          ></textarea>
+          <label>Your Message</label>
+          <textarea className="contactData" id="elaborate" cols="20"rows="10"></textarea>
           <input type="submit" value="Submit" />
         </form>
       </div>

@@ -35,6 +35,7 @@ function PrimaryComponent({
             : "primary__hero-section "
         }
       >
+
         <div className="container">
           <div
             className="row primary__hero-row"
