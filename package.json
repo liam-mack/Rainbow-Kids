@@ -25,6 +25,7 @@
     "if-env": "^1.0.4",
     "node-sass": "^4.14.1",
     "react-icons": "^4.1.0",
+    "react-modal": "^3.12.1",
     "react-router-dom": "^5.2.0",
     "react-vertical-timeline-component": "^3.3.1",
     "styled-components": "^5.2.1"

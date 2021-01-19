@@ -6,7 +6,7 @@ form {
 }
 
 form label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
   
 input,
@@ -14,9 +14,14 @@ select,
 textarea {
     width: 100%;
     padding: 1rem;
-    margin-top: 5px;
+    margin: 5px 0 1em 0;
     border-radius: 30px;
-    outline-color: #2e368f;
+    outline: none;
+}
+
+.contactData {
+    background-color: rgb(196,196,196,1);
+    border: none
 }
   
 input[type="submit"] {

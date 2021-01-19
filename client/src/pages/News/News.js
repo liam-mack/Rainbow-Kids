@@ -10,11 +10,11 @@ function About() {
   return (
     <div>
       <ScrollToTopOnMount />
-      <h1>News Page</h1>
+      {/* <h1>News Page</h1>
       <p>
         NEWS CAROUSEL
       </p>
-        <MultiPictureComponent {...newsObjOne}/>
+        <MultiPictureComponent {...newsObjOne}/> */}
       
       <Footer />
     </div>

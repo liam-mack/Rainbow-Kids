@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1299752.chunk.css",
+    "main.js": "/static/js/main.b766e302.chunk.js",
+    "main.js.map": "/static/js/main.b766e302.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.992eac29.js",
+    "runtime-main.js.map": "/static/js/runtime-main.992eac29.js.map",
+    "static/css/2.8ffcf675.chunk.css": "/static/css/2.8ffcf675.chunk.css",
+    "static/js/2.50e3158c.chunk.js": "/static/js/2.50e3158c.chunk.js",
+    "static/js/2.50e3158c.chunk.js.map": "/static/js/2.50e3158c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ca4dd34a0b703be219b1a63fb32ce833.js": "/precache-manifest.ca4dd34a0b703be219b1a63fb32ce833.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.8ffcf675.chunk.css.map": "/static/css/2.8ffcf675.chunk.css.map",
+    "static/css/main.b1299752.chunk.css.map": "/static/css/main.b1299752.chunk.css.map",
+    "static/js/2.50e3158c.chunk.js.LICENSE.txt": "/static/js/2.50e3158c.chunk.js.LICENSE.txt",
+    "static/media/BannerImage.css": "/static/media/StaffBanner.3a8e2d0e.jpg",
+    "static/media/PrimaryComponent.css": "/static/media/RWATangoCharlie-Slanted.d7cadd68.otf",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.svg": "/static/media/logo.d1fdfb5b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.992eac29.js",
+    "static/css/2.8ffcf675.chunk.css",
+    "static/js/2.50e3158c.chunk.js",
+    "static/css/main.b1299752.chunk.css",
+    "static/js/main.b766e302.chunk.js"
+  ]
+}

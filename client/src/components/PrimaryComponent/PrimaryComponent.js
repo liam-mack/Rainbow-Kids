@@ -95,11 +95,11 @@ function PrimaryComponent({
                 >
                   {description3}
                 </p>
-                <Link to={buttonLink}>
-                  {buttonLink && (
+                {buttonLink && (
+                  <Link to={buttonLink}>
                     <Button buttonColour={buttonColour}>{buttonLabel}</Button>
-                  )}
-                </Link>
+                  </Link>
+                )}
               </div>
             </div>
             {img && (

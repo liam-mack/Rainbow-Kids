@@ -22,11 +22,12 @@ small {
     margin: auto;
 }
 
-.footer-links h1 {
+.footer-links h2 {
     color: white;
+    font-weight: 100;
 }
 
-.footer-links h1:hover {
+.footer-links h2:hover {
     color: red;
 }
 
@@ -70,7 +71,7 @@ small {
         display: flex;
     }
 
-    .footer-link-wrapper h1{
+    .footer-link-wrapper h2{
         margin-right: 3rem
     }
 }

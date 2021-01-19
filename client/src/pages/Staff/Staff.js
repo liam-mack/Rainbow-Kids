@@ -12,6 +12,7 @@ import {staffObj} from "./StaffData";
 import Footer from "../../components/Footer/Footer";
 
 function Staff() {
+  
   const [query, setQuery] = useState("");
   const [isSorted, getSorted] = useState(null);
   const [db, getDirectory] = useState(employees);
@@ -36,6 +37,8 @@ function Staff() {
 let displayedDirectory =  db.filter((employee) => {
   return employee.name.toLowerCase().startsWith(query.toLocaleLowerCase())
 });
+
+console.log(displayedDirectory)
 
 
   return (

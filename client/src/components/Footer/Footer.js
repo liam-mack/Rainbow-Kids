@@ -8,22 +8,22 @@ function Footer() {
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <Link to="/">
-            <h1>Home</h1>
+            <h2>Home</h2>
           </Link>
           <Link to="/About">
-            <h1>About Us</h1>
+            <h2>About Us</h2>
           </Link>
           <Link to="/Programs">
-            <h1>Programs and Registration</h1>
+            <h2>Programs & Registration</h2>
           </Link>
           <Link to="/News">
-            <h1>News and Events</h1>
+            <h2>News and Events</h2>
           </Link>
           <Link to="/Staff">
-            <h1>The Team</h1>
+            <h2>The Team</h2>
           </Link>
           <Link to="/Contact">
-            <h1>Contact Us</h1>
+            <h2>Contact Us</h2>
           </Link>
         </div>
       </div>
@@ -43,7 +43,7 @@ function Footer() {
           <div className="social-icons">
             <Link
               className="social-icon-link facebook"
-              to="/"
+              to="/facebook"
               target="_blank"
               aria-label="Facebook"
             >
@@ -51,7 +51,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link instagram"
-              to="/"
+              to="/instagram"
               target="_blank"
               aria-label="Instagram"
             >
@@ -59,7 +59,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link twitter"
-              to="/"
+              to="/twitter"
               target="_blank"
               aria-label="Twitter"
             >

@@ -18,9 +18,12 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/news" component={News} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/Staff" component={Staff} />
-        <Route path="/Programs" component={Programs} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/Staff" component={Staff} />
+        <Route exact path="/Programs" component={Programs} />
+        <Route exact path="/facebook" render={() => (window.location = "https://www.facebook.com/rainbowkidschool/")} />
+        <Route exact path="/instagram" render={() => (window.location = "https://www.facebook.com/rainbowkidschool/")} />
+        <Route exact path="/twitter" render={() => (window.location = "https://www.facebook.com/rainbowkidschool/")} />
       </div>
     </Router>
   );
