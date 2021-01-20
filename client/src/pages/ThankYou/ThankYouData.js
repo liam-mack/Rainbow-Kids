@@ -3,7 +3,7 @@ export const thankYouMessage= {
     lightTextDescription: false,
     headline: "Thank You for your submission",
     description: "We have sent you a copy of your message to your inbox. Check your email within the next 1-2 business days for our reply.",
-    imgStart: "",
-    img: "/images/KidsWithSlime.jpg",
-    alt: "Children crafting"
+    imgStart: "start",
+    img: "/images/KidsWithCollie.jpg",
+    alt: "Children With Dog"
 }
