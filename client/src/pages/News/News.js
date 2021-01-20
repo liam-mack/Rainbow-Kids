@@ -2,7 +2,7 @@ import React from "react";
 import ScrollToTopOnMount from "../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../components/Footer/Footer";
 import MultiPictureComponent from "../../components/MultiPictureComponent/MultiPictureComponent";
-import { newsObjOne } from "./NewsData.js" 
+import { newsObjOne } from "./NewsData.js"
 
 
 // Fix: Light text to picture descriptions
@@ -15,7 +15,7 @@ function About() {
         NEWS CAROUSEL
       </p>
         <MultiPictureComponent {...newsObjOne}/> */}
-      
+
       <Footer />
     </div>
   );

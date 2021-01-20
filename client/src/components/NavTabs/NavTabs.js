@@ -14,11 +14,11 @@ function NavTabs() {
 
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
-  
+
   useEffect( ()=> {
     showHamburger()
   }, []);
-  
+
   const closeHamburger = () => setClick(false);
   const showHamburger = () => {
     if(window.innerWidth <= 960) {
@@ -28,7 +28,7 @@ function NavTabs() {
     }
   }
 
-  
+
 
   window.addEventListener('resize', showHamburger);
 

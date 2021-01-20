@@ -5,9 +5,7 @@ small {
     background-color: #242B64;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    color: white;
+    height: 100%;
 }
 
 .footer-links {
@@ -36,8 +34,8 @@ small {
 }
 
 .footer-link-wrapper{
-    text-align: center;  
-    margin-left: 1em;  
+    text-align: center;
+    margin-left: 1em;
 }
 
 .footer-socials {
