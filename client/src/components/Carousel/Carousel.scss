@@ -1,0 +1,54 @@
+$purple: rgba(102, 45, 145, 0.65);
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.slide {
+    min-width: 100%;
+    height: 80%;
+    transition: 0.5s;
+    overflow: hidden;
+    background-color: $purple;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.02);
+}
+
+%btn-styles{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 80%;
+    background: none;
+    color: #ffffff;
+    font-size: 3em;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    &:hover{
+        background: rgba(255, 255, 255, 0.418);
+        color: $purple;
+        cursor: pointer;
+    }
+}
+
+#slideLeft{
+    left: 0;
+    @extend %btn-styles;
+}
+
+#slideRight{
+    right: 0;
+    @extend %btn-styles;
+}

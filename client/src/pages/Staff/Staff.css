@@ -2,5 +2,36 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
 
+.aboutStaff{
+    text-align: center;
+}
+
+@media screen and (min-width: 784px) {
+    .staffDirectoryWrapper{
+        background-image: linear-gradient(to bottom, #ffffff 40%, #FAB96C 40% );
+        background-size: 100% 379.66px;
+        background-repeat: repeat;
+        padding: 0em 5em 0 5em;
+        transition: all 0.3s ease-out;
+    }
+
+    .aboutStaff{
+        text-align: start;
+        margin-left: 20%;
+        transition: all 0.3s ease-out;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .staffDirectoryWrapper{
+        padding: 0em 12em 0 12em;
+        transition: all 0.3s ease-out;
+    }
+
+    /* .aboutStaff{
+        margin-left: 9em;
+        transition: all 0.3s ease-out;
+    } */
 }

@@ -1,28 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Footer.css";
+import "./Footer.scss";
 
 function Footer() {
   return (
     <div className="footer-container">
       <div className="footer-links">
         <div className="footer-link-wrapper">
-          <Link to="/">
+          <Link  className="footerLink" to="/">
             <h2>Home</h2>
           </Link>
-          <Link to="/About">
+          <Link  className="footerLink" to="/About">
             <h2>About Us</h2>
           </Link>
-          <Link to="/Programs">
+          <Link  className="footerLink" to="/Programs">
             <h2>Programs & Registration</h2>
           </Link>
-          <Link to="/News">
+          <Link  className="footerLink" to="/News">
             <h2>News and Events</h2>
           </Link>
-          <Link to="/Staff">
+          <Link  className="footerLink" to="/Staff">
             <h2>The Team</h2>
           </Link>
-          <Link to="/Contact">
+          <Link  className="footerLink" to="/Contact">
             <h2>Contact Us</h2>
           </Link>
         </div>

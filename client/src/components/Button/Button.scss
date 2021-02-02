@@ -1,3 +1,9 @@
+$peach: #fab96c;
+$yellow: rgba(255, 209, 5, 0.65);
+$purple: rgba(102, 45, 145, 0.65);
+$lime: #e0e98f;
+$pink: rgba(237, 28, 36, 0.65);
+
 :root {
     --primary: #ffffff
 }
@@ -63,51 +69,92 @@
 
 
 .pinkBtn {
-    background-color: rgba(237, 28, 36, 0.65);
+    background-color: $pink;
     color: #ffffff;
-    border: none;
+    border: 1px solid transparent;
+    &:hover{
+        color: $pink;
+        border: 1px solid $pink;
+    }
 }
 
 .purpleBtn {
-    background-color: rgba(102, 45, 145, 0.65);
+    background-color: $purple;
     color: #ffffff;
-    border: none;
+    border: 1px solid transparent;
+    &:hover{
+        color: $purple;
+        border: 1px solid $purple;
+    }
 }
 
 .whiteBtn {
     background-color: #ffffff;
     color: #242424;
-    border: none
+    border: 1px solid transparent;
+    &:hover{
+        color: $peach;
+    }
 }
 
 .peachBtn {
-    background-color: #FAB96C;
+    background-color: $peach;
     color: #242424;
-    border: none
+    border: 1px solid transparent;
+    &:hover{
+        color: $peach;
+        border: 1px solid $peach;
+    }
 }
 
 .limeBtn {
-    background-color: #E0E98F;
+    background-color: $lime;
     color: #ffffff;
-    border: none;
+    border: 1px solid transparent;
+    &:hover{
+        color: $lime;
+        border: 1px solid $lime;
+    }
 }
 
 .yellowBtn {
-    background-color: rgba(255, 209, 5, 0.65);
+    background-color: $yellow;
     color: #242424;
-    border: none;
+    border: 1px solid transparent;
+    &:hover{
+        color: $yellow;
+        border: 1px solid $yellow;
+    }
 }
 
 .greyBtn {
     background-color: #C4C4C4;
-    color: #242424;
-    border: none;
+    color: #ffffff;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #c4c4c4;
+    }
 }
 
-.primary:hover {
+.programsBtn {
     background-color: #ffffff;
     color: #242424;
-    border: none
+    border: 1px solid transparent;
+    &:hover{
+        background-color: $yellow;
+        border: 1px solid #242424;
+    }
+}
+
+.staffBtn {
+    background-color: #ffffff;
+    color: $peach;
+    border: 1px solid transparent;
+    &:hover{
+        // background-color: $peach;
+        border: 1px solid #242424;
+        color: #242424;
+    }
 }
 
 @media screen and (min-width: 784px) {

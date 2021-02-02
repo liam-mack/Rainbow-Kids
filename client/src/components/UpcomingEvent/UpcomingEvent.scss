@@ -1,0 +1,54 @@
+$grey: #c4c4c4;
+
+.upcomingEventCard{
+    margin: auto;
+    // text-align: center;
+}
+
+.calendarEvent{
+    max-width: 25em;
+    min-width: 20em;
+    height: 15em;
+    background-color: $grey;
+    border-radius: 13px;
+    position: relative;
+    margin: auto;
+}
+
+.dateTriangle{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 100px 100px;
+    border-color: transparent transparent #ffffff transparent;
+    text-align: center;
+}
+
+.eventMonth{
+    position: absolute;
+    font-family: "Montserrat";
+    font-size: 1em;
+    top: 45px;
+    right: 5px;
+}
+.eventDay{
+    position: absolute;
+    font-family: "RWATangoCharlie";
+    font-size: 3em;
+    top: 50px;
+    right: 2px;
+}
+
+.upcomingTitle{
+    font-family: "Montserrat";
+    margin: 0.3em 0 0.3em 0;
+    font-size: 1.3em;
+}
+
+.upcomingDesc{
+    margin-bottom: 1em;
+}
+

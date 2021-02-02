@@ -1,0 +1,338 @@
+// Define Site Colour Variables
+$peach: #fab96c;
+$yellow: rgba(255, 209, 5, 0.65);
+$purple: rgba(102, 45, 145, 0.65);
+$lime: #e0e98f;
+$pink: rgba(237, 28, 36, 0.65);
+$grey: #c4c4c4;
+
+// Custom font styling
+@font-face {
+  font-family: "RWATangoCharlie";
+  src: url("../../fonts/RWATangoCharlie-Slanted.otf") format("opentype");
+}
+h1 {
+  font-family: "RWATangoCharlie";
+  font-weight: 400 !important;
+  font-size: 3em;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+p,
+a,
+label,
+input {
+  font-family: "Montserrat";
+}
+
+/* PrimaryComponent Strip Wrapp*/
+.primary__hero-section {
+  color: #fff;
+  padding-bottom: 2em;
+}
+
+/* Wrapper for PrimaryComponent sections */
+.primary__hero-row {
+  align-items: center;
+}
+.row {
+  display: flex;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+/* PrimaryComponent Columns */
+.col {
+  display: flex;
+  margin: 0 1em 1em 1em;
+  flex: 1;
+  flex-basis: 40%;
+}
+
+/* PrimaryComponent Text Section*/
+.primary__hero-text-wrapper {
+  padding-top: 0;
+}
+
+/* PrimaryComponent Header - changed by props (Default: white) */
+.heading {
+  margin-bottom: 24px;
+  font-size: 3em;
+  line-height: 1.1;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.subHeading {
+  font-size: 40px;
+}
+
+.top-line {
+  display: block;
+  font-size: 3em;
+}
+
+.primary__hero-body {
+  max-width: 100%;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Conditional bold styling based on props*/
+.bold {
+  font-weight: 900;
+  color: black;
+}
+
+/* Conditional italic styling based on props*/
+.home-ital {
+  font-style: italic;
+}
+
+/* Dark font colour applied based on props */
+.dark {
+  color: black !important;
+}
+
+// Site colours applied based on props
+.yellow {
+  background-color: $yellow;
+}
+.peach {
+  background-color: $peach;
+}
+.pink {
+  background-color: $pink;
+}
+.grey {
+  background-color: $grey;
+}
+.purple {
+  background-color: $purple;
+}
+.lime {
+  background-color: $lime;
+}
+// Site colours - END
+
+/* Goals List */
+li p {
+  color: black;
+  font-weight: 550;
+  padding: 0;
+  margin: 0;
+}
+
+/* Customized bullet point for Goals List */
+.rainbow::marker {
+  font-family: "RWATangoCharlie";
+  content: "*";
+  font-size: 1.9em;
+}
+
+.styledList {
+  text-align: left !important;
+}
+
+/* Goals List Styling (Rainbow)*/
+.li0 {
+  color: #ec1d25;
+}
+.li1 {
+  color: #f7941d;
+}
+.li2 {
+  color: #fed006;
+}
+.li3 {
+  color: #c5d82d;
+}
+.li4 {
+  color: #36c1ce;
+}
+.li5 {
+  color: #662e91;
+}
+.li6 {
+  color: #f7941d;
+}
+/* List Styling End */
+
+/* PrimaryComponent with Single Image */
+.primary__hero-img-single {
+  margin: auto;
+  text-align: center;
+}
+/* PrimaryComponent with Multiple Images */
+.primary__hero-img-multi {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+/* Wrapper for Logo */
+.primary__hero-img {
+  max-width: 50%;
+  max-height: 400px;
+  margin: 1em 0 1em 0;
+}
+
+/* Default img styling */
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* Styling for non-staff multi-picture in PrimaryComponent */
+.primary__pic-img {
+  max-width: 90%;
+  max-height: 550px;
+  border-radius: 18px;
+  margin-top: 1em !important;
+  display: block;
+  margin: auto;
+}
+
+/* Staff image styling for PrimaryComponent*/
+.primary__pic-staff {
+  max-width: 80%;
+  max-height: 400px;
+  border-radius: 100%;
+  margin-right: 0;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+}
+
+// Picture Heading/Subtitle Styling
+.pictureHeading,
+.pictureSubtitle {
+  color: #ffffff;
+}
+
+.pictureHeading {
+  font-weight: 800;
+  text-align: center;
+}
+
+.pictureSubtitle {
+  text-align: center;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+/* Program Modal Component */
+.programModal {
+  position: relative;
+  text-align: center;
+  width: 90%;
+  margin: 6em auto 0 auto;
+  border-radius: 34px;
+  background-color: #ffffff;
+  &:focus {
+    outline: none;
+  }
+}
+
+// Font Awesome Icon to close Modal
+.programModalClose {
+  position: absolute;
+  right: 1em;
+  top: 0.5em;
+  font-size: 1.5em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+// Styling for program modal image
+.modal-program-img {
+  height: 100%;
+  width: fit-content;
+  object-fit: cover;
+  border-radius: 34px 34px 0 0;
+}
+
+// Modal text Column
+.modal-col-text {
+  width: fit-content;
+}
+
+.modal-program-title {
+  margin: 0.5em 0 0 0;
+  font-size: 2em;
+}
+
+.modal-program-subtitle {
+  margin: 0 0 1em 0 !important;
+  font-size: 0.8em;
+}
+
+.modal-program-description {
+  margin: 0 2em 0 2em;
+  font-size: 0.7em;
+}
+
+.modalClose {
+  float: right;
+  margin: 1px 1px 0 0;
+}
+
+// Modal Breakpoints - Mobile First (TYBG)
+@media screen and (min-width: 700px) {
+  .modal-col {
+    width: 450px;
+  }
+    .programModal {
+        margin: 15em auto 0 auto;
+        display: flex;
+        width: 80%;
+        max-width: 600px;
+    }
+    .modal-program-img{
+        border-radius: 34px 0 0 34px;
+    }
+    .modal-col-text{
+        padding: 1em;
+    }
+    .modal-program-title{
+        font-size: 2em;
+    }
+    .modal-program-subtitle{
+        font-size: 1em;
+    }
+    .modal-program-description{
+        font-size: 0.8em;
+    }
+    .programModalClose{
+        color: #808080;
+    }
+}
+
+/* Screen sizes below 1000px */
+@media screen and (max-width: 1000px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+/* Screen sizes below 768px */
+@media screen and (max-width: 768px) {
+  .primary__hero-section {
+    text-align: center;
+  }
+  .primary__hero-img {
+    margin: 1em auto 1em auto;
+  }
+
+  .col {
+    max-width: 100%;
+    min-width: 100%;
+    display: block !important;
+    margin: 0 0 2em 0;
+  }
+}

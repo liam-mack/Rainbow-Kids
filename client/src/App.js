@@ -10,7 +10,6 @@ import Staff from "./pages/Staff/Staff";
 import ThankYou from "./pages/ThankYou/ThankYou";
 
 
-
 function App() {
   return (
     <Router>

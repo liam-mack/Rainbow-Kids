@@ -1,11 +1,11 @@
 import React from "react";
-import "./Button.css";
+import "./Button.scss";
 
 const STYLES = ["btn--primary", "btn--outline"];
 
 const SIZES = ["btn--medium", "btn--large", "btn--mobile", "btn--wide"];
 
-const COLOUR = ["primary","purpleBtn","greyBtn", "whiteBtn", "yellowBtn", "peachBtn", "limeBtn", "pinkBtn"];
+const COLOUR = ["primary","purpleBtn","greyBtn", "whiteBtn", "yellowBtn", "peachBtn", "limeBtn", "pinkBtn", "programsBtn", "staffBtn"];
 
 // Fix: buttonLocation
 export const Button = ({

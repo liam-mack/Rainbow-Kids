@@ -1,3 +1,34 @@
+$peach: #fab96c;
+$yellow: rgba(255, 209, 5, 0.65);
+$purple: rgba(102, 45, 145, 0.65);
+$lime: #e0e98f;
+$pink: rgba(237, 28, 36, 0.65);
+
+.footerLink:nth-child(1):hover{
+    color: blue !important
+}
+.footerLink:nth-child(2):hover{
+    color: $pink !important
+}
+.footerLink:nth-child(3):hover{
+    color: $yellow !important
+}
+.footerLink:nth-child(4):hover{
+    color: $purple !important
+}
+.footerLink:nth-child(5):hover{
+    color: $peach !important
+}
+.footerLink:nth-child(6):hover{
+    color: $lime !important
+}
+
+.footerLink {
+    h2:hover{
+        color:inherit
+    }
+}
+
 small {
     color: grey;
 }
@@ -25,9 +56,9 @@ small {
     font-weight: 100;
 }
 
-.footer-links h2:hover {
-    color: red;
-}
+// .footer-links h2:hover {
+//     color: inherit;
+// }
 
 .footer-links a {
     text-decoration: none;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "../Button/Button";
-import Modal from 'react-modal'
+import Modal from "react-modal";
 import "./StaffCard.css";
 
 Modal.setAppElement("#root");
@@ -11,11 +11,11 @@ function StaffCard(props) {
     name: "",
     position: "",
     biography: "",
-    image: ""
-  })
+    image: "",
+  });
 
-  function buttonClick({name, position, biography, image}) {
-    setStaffModal({...modalContent, name, position, biography, image})
+  function modalClick({ name, position, biography, image }) {
+    setStaffModal({ ...modalContent, name, position, biography, image });
     setModalIsOpen(true);
   }
   return (
@@ -33,34 +33,29 @@ function StaffCard(props) {
       <br />
 
       <br />
-      {props % 2 === 0 ? (
-        <Button buttonColour="whiteBtn" onClick={() => buttonClick(props)}>
+      {props.id % 2 === 0 ? (
+        <Button buttonColour="whiteBtn" onClick={() => modalClick(props)}>
           Details
         </Button>
       ) : (
-        <Button buttonColour="peachBtn" onClick={() => buttonClick(props)}>
+        <Button buttonColour="peachBtn" onClick={() => modalClick(props)}>
           Details
         </Button>
       )}
-      <Modal className="staffModal"isOpen={modalisOpen}
-      onRequestClose={() => setModalIsOpen(false)}
-      style = {
-        {
+      <Modal
+        className="staffModal"
+        isOpen={modalisOpen}
+        onRequestClose={() => setModalIsOpen(false)}
+        style={{
           overlay: {
-          backgroundColor: "grey"
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
           },
-          // content: {
-          //   textAlign: "center",
-          //   width: "25em",
-          //   height: "40em",
-          //   margin: "auto",
-          //   marginTop: "4rem",
-          //   backgroundImage: " linear-gradient(to top, #ffffff 70%, #FAB96C 30% )", 
-
-          // }
-        }
-      }
+        }}
       >
+        <div className="staffModalClose" onClick={() => setModalIsOpen(false)}>
+        <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+
         <img
           className="modal-profile"
           src={modalContent.image}
@@ -68,10 +63,8 @@ function StaffCard(props) {
         ></img>
         <h1 className="modal-name">{modalContent.name}</h1>
         <strong>{modalContent.position}</strong>
-        <br/>
-        <p className="modalText">
-          {modalContent.biography}
-        </p>
+        <br />
+        <p className="modalText">{modalContent.biography}</p>
       </Modal>
     </div>
   );

@@ -12,7 +12,6 @@
     background-size: cover;
     min-height: 55vh;
     background-position: 50% 30%;
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
 .HomeBanner {
@@ -20,7 +19,6 @@
     background-size: cover;
     min-height: 55vh;
     background-position: 50% 30%;
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
 .ProgramBanner {
@@ -28,7 +26,6 @@
     background-size: cover;
     min-height: 55vh;
     background-position: 50% 30%;
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
 .StaffBanner {
@@ -36,7 +33,6 @@
     background-size: cover;
     min-height: 55vh;
     background-position: 50% 15%;
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
 .BannerImage {
@@ -44,13 +40,14 @@
     max-height: 55vh;
     object-fit: none;
     object-position: 50% 30%;
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
 .BannerTitle {
     position: absolute;
-    top: 42%;
+    text-align: center;
+    top: 47%;
     left: 50%;
+    width: 80%;
     transform: translate(-50%, -50%);
     font-size: 3em;
 }
@@ -59,47 +56,37 @@
     position: absolute;
     top: 53%;
     left: 50%;
+    width: 80%;
     transform: translate(-50%, -50%);
     font-style: italic;
     font-size: 1.2em;
-    /* font-size: 1.2em; */
     text-align: center;
 }
 
-/* Fix: Temporary responsive scaling */
-@media screen and (max-width: 1360px) {
-    a {
-        font-size: .7em
-    }
+.AboutBanner .BannerDescription, .StaffBanner .BannerDescription {
+    width: 80%;
 }
 
-
-@media screen and (max-width: 784px) {
-    .BannerTitle {
-        font-size: 1.5em;
-    }
-
-    .BannerDescription{
+@media screen and (max-width: 1200px) {
+    .AboutBanner .BannerDescription, .StaffBanner .BannerDescription{
         font-size: 0.9em;
     }
 }
 
-@media screen and (max-width: 443px) {
+@media screen and (max-width: 950px) {
     .BannerTitle {
-        font-size: 1.1em;
+        font-size: 2em;
+        width: 100%;
     }
 
     .BannerDescription{
-        font-size: .7em;
+        width: 100% !important;
     }
 }
 
-@media screen and (max-width: 360px) {
-    .BannerTitle {
-        font-size: 1em;
+@media screen and (max-width: 500px) {
+    .AboutBanner .BannerDescription, .StaffBanner .BannerDescription{
+        font-size: 0.7em;
     }
 
-    .BannerDescription{
-        font-size: .7em;
-    }
 }

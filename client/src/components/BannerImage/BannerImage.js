@@ -1,5 +1,5 @@
 import React from 'react'
-import "./BannerImage.css"
+import "./BannerImage.scss"
 
 const BannerImage = (props) => {
 

@@ -1,0 +1,23 @@
+.slideCol{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+.slideText{
+    display: flex;
+    width: 50%;
+    margin: auto 0 auto 0;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-size: 1.5em; 
+}
+
+.slideImg{
+    margin-left: 3em;
+    max-height: 100%;
+    max-width: 375px;
+    float: right
+}
+

@@ -40,7 +40,7 @@ strong {
   position: relative;
   line-height: 1.4em;
   font-size: 1.03em;   
-  padding: $spacing;   
+  padding: 0 0 0$spacing;   
   list-style: none;
   text-align: left;  
   font-weight: 100;  
@@ -84,6 +84,18 @@ strong {
       width: $dot;
       content: "";
       top: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .timeline{
+    p{
+      font-size: 0.6em;
+    }
+    li.event::before{
+      font-size: 1.5em;
+      margin-left: 1em;
     }
   }
 }

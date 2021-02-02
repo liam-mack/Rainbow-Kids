@@ -2,13 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link} from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../icons/logo.svg";
-import "./NavTabs.css";
+import "./NavTabs.scss";
 
 function NavTabs() {
-  // We'll go into the Hooks API later, for now, we are just using some code
-  // from the react-router docs (https://reacttraining.com/react-router/web/api/Hooks/uselocation)
-  // This allows the component to check the route any time the user uses a link to navigate.
-  // const location = useLocation();
 
   const [button, setButton] = useState(true);
 
