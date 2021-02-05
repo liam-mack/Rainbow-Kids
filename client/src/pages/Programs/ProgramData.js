@@ -17,7 +17,8 @@ export const programObjTwo = {
   bgColour: "yellow",
   lightText: false,
   lightTextDescription: false,
-  headline: "Our Goals",
+  topLine: "Our Goals",
+  // headline: "Our Goals",
   listArray: [
     "Self-confidence",
     "Curiosity",
@@ -42,7 +43,8 @@ export const programObjThree = {
   multipleButtons: true,
   lightText: false,
   lightTextDescription: false,
-  headline: "Program Offerings",
+  topLine: "Program Offerings",
+  // headline: "Program Offerings",
   body:
     "Early Learning for Every Child Today (ELECT) is a guide that describes how young children learn and develop and is used to support curriculum in Ontario’s early childhood settings.  ELECT is intended as a support to the Ontario Day Nurseries Act and has been prepared for use by early childhood educators.  It complements curriculum and features a continuum of developmental skills and shared language that supports early childhood educators across childhood settings.",
   buttonLabel: "Details",
@@ -77,7 +79,8 @@ export const programObjFour = {
   bgColour: "yellow",
   lightText: false,
   lightTextDescription: false,
-  headline: "Nutrition",
+  topLine: "Nutrition",
+  // headline: "Nutrition",
   body:
     "We provide a nutritious mid-day meal for the preschool children prepared onsite.",
   body2:
@@ -97,7 +100,8 @@ export const programObjFour = {
 export const programObjFive = {
   lightText: false,
   lightTextDescription: false,
-  headline: "Registration",
+  topLine: "Registration",
+  // headline: "Registration",
   body:
     "Families who are interested in Rainbow Kidschool are most welcome to a visit at any time. To arrange a visit or for information about registration or any aspect of the Rainbow Kidschool program, please call 613-235-2255.",
   body2:

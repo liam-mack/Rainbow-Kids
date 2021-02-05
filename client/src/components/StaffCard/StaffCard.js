@@ -32,7 +32,6 @@ function StaffCard(props) {
       <em className="staff-position"> {props.position} </em>
       <br />
 
-      <br />
       {props.id % 2 === 0 ? (
         <Button buttonColour="whiteBtn" onClick={() => modalClick(props)}>
           Details

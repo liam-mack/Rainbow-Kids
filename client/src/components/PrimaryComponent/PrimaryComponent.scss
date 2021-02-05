@@ -20,14 +20,17 @@ h1 {
 p,
 a,
 label,
-input {
+input,
+button,
+small {
   font-family: "Montserrat";
 }
 
-/* PrimaryComponent Strip Wrapp*/
+/* PrimaryComponent Strip Wrapper*/
 .primary__hero-section {
   color: #fff;
   padding-bottom: 2em;
+  margin-top: -2em;
 }
 
 /* Wrapper for PrimaryComponent sections */
@@ -36,19 +39,21 @@ input {
 }
 .row {
   display: flex;
-  margin-right: -15px;
-  margin-bottom: -15px;
-  margin-left: -15px;
+//   margin-right: -15px;
+//   margin-bottom: -15px;
+//   margin-left: -15px;
   flex-wrap: wrap;
-  align-content: stretch;
+  align-items: stretch;
 }
 
+// Fix: COL MAX WIDTH
 /* PrimaryComponent Columns */
 .col {
   display: flex;
   margin: 0 1em 1em 1em;
   flex: 1;
   flex-basis: 40%;
+//   max-width: 50%;
 }
 
 /* PrimaryComponent Text Section*/
@@ -58,7 +63,8 @@ input {
 
 /* PrimaryComponent Header - changed by props (Default: white) */
 .heading {
-  margin-bottom: 24px;
+//   margin-bottom: 2em;
+  margin-top: 0;
   font-size: 3em;
   line-height: 1.1;
   font-weight: 600;
@@ -72,6 +78,8 @@ input {
 .top-line {
   display: block;
   font-size: 3em;
+  padding-top: 0.5em;
+  margin-left: 0.3em;
 }
 
 .primary__hero-body {
@@ -244,7 +252,7 @@ img {
   right: 1em;
   top: 0.5em;
   font-size: 1.5em;
-  color: #ffffff !important;
+  color: #c4c4c4 !important;
   cursor: pointer;
 }
 
@@ -286,31 +294,35 @@ img {
   .modal-col {
     width: 450px;
   }
-    .programModal {
-        margin: 15em auto 0 auto;
-        display: flex;
-        width: 80%;
-        max-width: 600px;
-    }
-    .modal-program-img{
-        border-radius: 34px 0 0 34px;
-    }
-    .modal-col-text{
-        padding: 1em;
-    }
-    .modal-program-title{
-        font-size: 2em;
-    }
-    .modal-program-subtitle{
-        font-size: 1em;
-    }
-    .modal-program-description{
-        font-size: 0.8em;
-    }
-    .programModalClose{
-        color: #808080;
-    }
+  .programModal {
+    margin: 15em auto 0 auto;
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+  }
+  .modal-program-img {
+    border-radius: 34px 0 0 34px;
+  }
+  .modal-col-text {
+    padding: 1em;
+  }
+  .modal-program-title {
+    font-size: 2em;
+  }
+  .modal-program-subtitle {
+    font-size: 1em;
+  }
+  .modal-program-description {
+    font-size: 0.8em;
+  }
+  .programModalClose {
+    color: #808080;
+  }
+  .primary__pic-img{
+      margin: 0;
+  }
 }
+
 
 /* Screen sizes below 1000px */
 @media screen and (max-width: 1000px) {

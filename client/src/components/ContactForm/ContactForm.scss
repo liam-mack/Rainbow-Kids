@@ -1,0 +1,75 @@
+// Define Page Colour Variables
+$peach: #fab96c;
+$yellow: rgba(255, 209, 5, 0.65);
+$purple: rgba(102, 45, 145, 0.65);
+$lime: #e0e98f;
+$pink: rgba(237, 28, 36, 0.65);
+$grey: #3D3D3D;
+
+form {
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 1.6rem
+  }
+  
+  form label {
+    font-size: 1rem;
+  }
+  
+  /* Defines the styling of the 4 textboxes on the contact form */
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 30px;
+    outline: none;
+    margin: 10px 0;
+  }
+  
+  .contactData {
+    background-color: rgb(196,196,196);
+    border: none
+  }
+  
+  /* Define text color and font size inside the your message box on the contact page */
+  #elaborate{
+    color: White;
+    font-size: 1rem;
+  }
+  
+  
+  /* Defines Styling of the submit button the contact form */
+  /* input[type="submit"] {
+    width: initial;
+    background-color: rgb(196,196,196,1);
+    color: #2e368f;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+    border: none;
+    margin-bottom: 30px;
+  } */
+
+  .submitBtn {
+    display: block;
+    width: 30%;
+    padding: 8px 20px;
+    font-size: 18px;
+    margin: 1em auto 1em auto;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 900;
+    background-color: $lime;
+    color: $grey;
+    border: 1px solid transparent;
+    &:hover{
+        color: $lime ;
+        background-color: $grey ;
+    }
+}
+  

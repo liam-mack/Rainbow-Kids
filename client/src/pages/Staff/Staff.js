@@ -62,7 +62,7 @@ function Staff() {
         startSort={startSearchQuery}
         sortQuery={searchQuery}
       />
-        <h1 className="aboutStaff">Who are we?</h1>
+        {/* <h1 className="aboutStaff">Who are we?</h1> */}
       <div className="staffDirectoryWrapper">
         <StaffDirectory staff={displayedDirectory} />
       </div>

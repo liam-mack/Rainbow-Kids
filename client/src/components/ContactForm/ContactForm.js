@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactForm.css";
+import "./ContactForm.scss";
 
 // Formspree currently has a form handler & Thank You page, but it should be redirected
 function Contact() {
@@ -15,7 +15,7 @@ function Contact() {
           <input className="contactData"type="email" id="Email" name="Email" required />
           <label>Your Message</label>
           <textarea className="contactData" id="elaborate" cols="20"rows="10"></textarea>
-          <input type="submit" value="Submit"/>
+          <input className="submitBtn" type="submit" value="Submit"/>
         </form>
       </div>
       <div className="col">

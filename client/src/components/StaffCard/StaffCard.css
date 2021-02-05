@@ -15,7 +15,8 @@
     max-width: 200px;
     /* max-height: 300px; */
     border-radius: 50%;
-    margin-top: 3em
+    margin-top: 3em;
+    margin-bottom: 1.5em;
     
 }
 
@@ -28,6 +29,7 @@
     border: none;
     border-radius: 3%;
     position: relative;
+    transition: all 0.5s ease;
 }
 
 .modal-name{
@@ -40,7 +42,7 @@
 
 .modalText{
     font-size: .7em;
-    padding: 1em
+    padding: 0 3em 1em 3em
 }
 
 .modal-profile {
@@ -55,7 +57,8 @@
     right: 0.5em;
     top: 0.5em;
     font-size: 1.5em;
-    color: #ffffff
+    color: #ffffff;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 560px) {
@@ -87,8 +90,12 @@
 
 @media screen and (min-width: 1000px) {
     .staffModal{
-        width: 30%;
-        /* margin-top: 10rem */
+        max-width: 50%;
+    }
+}
+@media screen and (min-width: 1300px) {
+    .staffModal{
+        max-width: 40%;
     }
 }
 

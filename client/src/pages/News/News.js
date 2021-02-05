@@ -33,7 +33,7 @@ function About() {
     <div>
       <ScrollToTopOnMount />
       <div className="container">
-        <h1>News</h1>
+        <h1 className="newsTitle">News</h1>
       </div>
       <Carousel />
       <div className="container eventSection">
@@ -44,7 +44,7 @@ function About() {
           <UpcomingEvent day="16" title="Speaker - Sara Fortier"/>
         </div>
         <Button
-          buttonColour="greyBtn"
+          buttonColour="calendarBtn"
           onClick={openModal}
           style={{ margin: "auto" }}
         >

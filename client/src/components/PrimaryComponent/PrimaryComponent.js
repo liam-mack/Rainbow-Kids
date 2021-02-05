@@ -65,7 +65,7 @@ function PrimaryComponent({
   }
   return (
     <>
-      <div
+      <div 
         className={
           bgColour
             ? `primary__hero-section ${bgColour}`
@@ -73,7 +73,7 @@ function PrimaryComponent({
         }
       >
         <div className="container">
-          <h1 className="top-line">{topLine}</h1>
+          <h1 className={lightText ? "top-line" : "top-line dark"}>{topLine}</h1>
           <div
             className="row primary__hero-row"
             style={{

@@ -3,6 +3,8 @@ $yellow: rgba(255, 209, 5, 0.65);
 $purple: rgba(102, 45, 145, 0.65);
 $lime: #e0e98f;
 $pink: rgba(237, 28, 36, 0.65);
+$grey: #c4c4c4;
+
 
 :root {
     --primary: #ffffff
@@ -100,6 +102,7 @@ $pink: rgba(237, 28, 36, 0.65);
 .peachBtn {
     background-color: $peach;
     color: #242424;
+    // margin: 0 !important;
     border: 1px solid transparent;
     &:hover{
         color: $peach;
@@ -138,24 +141,33 @@ $pink: rgba(237, 28, 36, 0.65);
 
 .programsBtn {
     background-color: #ffffff;
-    color: #242424;
+    color: #3D3D3D;
     border: 1px solid transparent;
     &:hover{
-        background-color: $yellow;
-        border: 1px solid #242424;
+        border: 1px solid #3D3D3D;
     }
 }
 
 .staffBtn {
     background-color: #ffffff;
-    color: $peach;
+    color: #3D3D3D;
     border: 1px solid transparent;
     &:hover{
-        // background-color: $peach;
-        border: 1px solid #242424;
-        color: #242424;
+        border: 1px solid $peach;
+        color: $peach;
     }
 }
+
+.calendarBtn {
+    margin: 5em auto 7em auto !important;
+    background-color: #C4C4C4;
+    color: #ffffff;
+    border: 1px solid transparent;
+    &:hover{
+        border: 1px solid #c4c4c4 ;
+    }
+}
+
 
 @media screen and (min-width: 784px) {
     .peachBtn {

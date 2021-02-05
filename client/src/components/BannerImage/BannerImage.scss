@@ -59,6 +59,7 @@
     width: 80%;
     transform: translate(-50%, -50%);
     font-style: italic;
+    font-weight: bold;
     font-size: 1.2em;
     text-align: center;
 }
@@ -67,7 +68,7 @@
     width: 80%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .AboutBanner .BannerDescription, .StaffBanner .BannerDescription{
         font-size: 0.9em;
     }
