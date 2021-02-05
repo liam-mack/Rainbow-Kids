@@ -4,6 +4,8 @@ import "./ContactForm.scss";
 // Formspree currently has a form handler & Thank You page, but it should be redirected
 function Contact() {
   return (
+    <div className="container contact">
+      <h1>Message us!</h1>
     <div className="row primary__hero-row">
       <div className="col">
         <form id="contactForm" action="https://formspree.io/xqkyrlvg" method="POST">
@@ -23,6 +25,7 @@ function Contact() {
           <img src="/images/swingSet.jpg" alt="swingSet" className="primary__pic-img" />
         </div>
       </div>
+    </div>
     </div>
   );
 }

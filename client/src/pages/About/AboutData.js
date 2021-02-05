@@ -2,8 +2,8 @@ export const aboutObjOne= {
     bgColour: "pink",
     lightText: true,
     lightTextDescription: true,
-    // headline: "Our Philosophy",
-    topLine: "Our Philosophy",
+    headline: "Our Philosophy",
+    // topLine: "Our Philosophy",
     body: "Our philosophy incorporates theoretical principles of such renowned child psychologists as Piaget and Erikson. The program, reflecting its philosophical base, is developmental in nature and allows children to grow and progress at their own rate. We believe that Rainbow Kidschool has to provide an environment conducive to meeting the needs of the whole child, in order to stimulate a love of learning.  We believe that by encouraging children to respect others and the environment, they will discover that learning is a rewarding experience.",
 }
 

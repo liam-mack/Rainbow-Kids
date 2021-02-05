@@ -13,7 +13,7 @@ export const contactObjTwo= {
     body2: "Monday-Friday 7:30am - 5:30pm",
     body3: "Get in touch to see how our program can benefit your child, and learn more about our programs!",
     imgStart: "",
-    img: ["/images/CrackingEggs.jpg"],
+    img: ["/images/contactGardening.JPG"],
     singleImg: true,
     alt: "Children crafting",
     includesHeaders: true,
