@@ -22,6 +22,8 @@ a,
 label,
 input,
 button,
+em,
+strong,
 small {
   font-family: "Montserrat";
 }
@@ -59,6 +61,7 @@ small {
 /* PrimaryComponent Text Section*/
 .primary__hero-text-wrapper {
   padding-top: 0;
+  max-width: 90%;
 }
 
 /* PrimaryComponent Header - changed by props (Default: white) */
@@ -172,12 +175,30 @@ li p {
 .primary__hero-img-single {
   margin: auto;
   text-align: center;
+  /* Styling for non-staff single-picture in PrimaryComponent */
+  .primary__pic-img {
+    max-width: 90%;
+    max-height: 550px;
+    border-radius: 18px;
+    margin-top: 1em !important;
+    display: block;
+    margin: none;
+  }
 }
 /* PrimaryComponent with Multiple Images */
 .primary__hero-img-multi {
   max-width: 400px;
   text-align: center;
   margin: 0 auto 0 auto;
+  /* Styling for non-staff multi-picture in PrimaryComponent */
+  .primary__pic-img {
+    max-width: 90%;
+    max-height: 550px;
+    border-radius: 18px;
+    margin-top: 1em !important;
+    display: block;
+    margin: auto;
+  }
 }
 
 /* Wrapper for Logo */
@@ -193,16 +214,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-}
-
-/* Styling for non-staff multi-picture in PrimaryComponent */
-.primary__pic-img {
-  max-width: 90%;
-  max-height: 550px;
-  border-radius: 18px;
-  margin-top: 1em !important;
-  display: block;
-  margin: auto;
 }
 
 /* Staff image styling for PrimaryComponent*/
@@ -318,9 +329,9 @@ img {
   .programModalClose {
     color: #808080;
   }
-  .primary__pic-img{
-      margin: 0;
-  }
+//   .primary__pic-img{
+//       margin: 0;
+//   }
 }
 
 

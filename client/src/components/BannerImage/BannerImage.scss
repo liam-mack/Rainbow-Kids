@@ -64,6 +64,17 @@
     text-align: center;
 }
 
+.AboutBanner{
+    .BannerDescription{
+        top: 55%;
+    }
+}
+.StaffBanner{
+    .BannerDescription{
+        top: 55%;
+    }
+}
+
 .AboutBanner .BannerDescription, .StaffBanner .BannerDescription {
     width: 80%;
 }
@@ -74,7 +85,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1100px) {
     .BannerTitle {
         font-size: 2em;
         width: 100%;
