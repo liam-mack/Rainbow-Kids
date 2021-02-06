@@ -61,7 +61,7 @@ small {
 /* PrimaryComponent Text Section*/
 .primary__hero-text-wrapper {
   padding-top: 0;
-  max-width: 90%;
+//   max-width: 90%;
 }
 
 /* PrimaryComponent Header - changed by props (Default: white) */
@@ -182,7 +182,7 @@ li p {
     border-radius: 18px;
     margin-top: 1em !important;
     display: block;
-    margin: none;
+    margin: 0;
   }
 }
 /* PrimaryComponent with Multiple Images */
@@ -302,6 +302,9 @@ img {
 
 // Modal Breakpoints - Mobile First (TYBG)
 @media screen and (min-width: 768px) {
+  .primary__hero-text-wrapper {
+      max-width: 90%;
+  }
   .modal-col {
     width: 450px;
   }
@@ -350,6 +353,9 @@ img {
   }
   .primary__hero-img {
     margin: 1em auto 1em auto;
+  }
+  .primary__pic-img {
+    margin: 1em auto 1em auto !important;
   }
 
   .col {
