@@ -5,6 +5,10 @@ $grey: #c4c4c4;
     // text-align: center;
 }
 
+.upcomingEventCard:nth-child(1) {
+    margin-left: 0 !important;
+  }
+
 .calendarEvent{
     max-width: 25em;
     min-width: 20em;
