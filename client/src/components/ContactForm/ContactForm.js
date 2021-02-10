@@ -7,7 +7,7 @@ function Contact() {
     <div className="container contact">
       <h1>Message us!</h1>
     <div className="row primary__hero-row">
-      <div className="col">
+      <div className="contactCol">
         <form id="contactForm" action="https://formspree.io/xqkyrlvg" method="POST">
           <label>First Name (required)</label>
           <input className="contactData"type="text" id="name" name="Name" required />

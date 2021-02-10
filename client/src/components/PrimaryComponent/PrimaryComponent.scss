@@ -52,7 +52,7 @@ small {
 /* PrimaryComponent Columns */
 .col {
   display: flex;
-  margin: 0 1em 1em 1em;
+  margin: 0 1em 1em 0;
   flex: 1;
   flex-basis: 40%;
 //   max-width: 50%;
@@ -82,7 +82,12 @@ small {
   display: block;
   font-size: 3em;
   padding-top: 0.5em;
-  margin-left: 0.3em;
+}
+
+.purple {
+  .top-line{
+    margin-left: 0.3em;
+  }
 }
 
 .primary__hero-body {
@@ -199,6 +204,10 @@ li p {
     display: block;
     margin: auto;
   }
+}
+
+.primary__pic-img {
+  border-radius: 18px;
 }
 
 /* Wrapper for Logo */
@@ -332,9 +341,6 @@ img {
   .programModalClose {
     color: #808080;
   }
-//   .primary__pic-img{
-//       margin: 0;
-//   }
 }
 
 
@@ -365,3 +371,4 @@ img {
     margin: 0 0 2em 0;
   }
 }
+
