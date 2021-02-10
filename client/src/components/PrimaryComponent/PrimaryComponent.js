@@ -35,7 +35,7 @@ function PrimaryComponent({
   modalBody,
   modalFooter,
   modalLink,
-  textWarning,
+  textWarning
 }) {
   const [modalisOpen, setModalIsOpen] = useState(false);
   const [modalContent, setProgramModal] = useState({
