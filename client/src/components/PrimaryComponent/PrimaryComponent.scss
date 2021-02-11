@@ -58,6 +58,14 @@ small {
 //   max-width: 50%;
 }
 
+.column {
+  margin: auto;
+  // text-align: center;
+  p{
+    width:110%
+  }
+}
+
 /* PrimaryComponent Text Section*/
 .primary__hero-text-wrapper {
   padding-top: 0;
@@ -311,7 +319,8 @@ img {
 
 // Modal Breakpoints - Mobile First (TYBG)
 @media screen and (min-width: 768px) {
-  .primary__hero-text-wrapper {
+  
+  .col .primary__hero-text-wrapper {
       max-width: 90%;
   }
   .modal-col {

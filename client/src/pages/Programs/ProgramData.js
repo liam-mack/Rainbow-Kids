@@ -6,7 +6,7 @@ export const programObjOne = {
     "Our developmental approach stimulates a love of learning in a way that allows children to progress at their own rate. We address the full range of child development needs; emotional, social, physical and cognitive which are the foundation to the building of self-confidence and personal esteem, nurturing each child to feel good about himself/ herself.",
   body2:
     "Our approach engages children in small group events (music, story telling, games, show and tell) that encourages accepting suggestions and directions from others, listening attentively, interacting positively with peers, respectingadults other than parents and recognizing their valued membership and contribution in broader social groups.",
-  imgStart: "",
+  textStart: "start",
   img: ["/images/KidsWithSlime.jpg"],
   singleImg: true,
   alt: "Children crafting",
@@ -32,7 +32,7 @@ export const programObjTwo = {
     "We want our children to develop skills and values that will prepare them to participate enthusiastically, safely and productively in structured learning environments and diverse social settings, building towards:",
   body2:
     "We want to reinforce and complement the guidance and care offered at home and in other settings, through professional and devoted attention to your children while in our care, offering a safe, secure and stimulating physical and social environment, being respectful, supportive of our families’ needs. We want to be open to sharing insights and experiences on approaches to learning.",
-  imgStart: "start",
+  textStart: "",
   img: ["/images/KidsShovelling.jpg"],
   singleImg: true,
   alt: "Children shovelling garden",
@@ -49,7 +49,7 @@ export const programObjThree = {
     "Early Learning for Every Child Today (ELECT) is a guide that describes how young children learn and develop and is used to support curriculum in Ontario’s early childhood settings.  ELECT is intended as a support to the Ontario Day Nurseries Act and has been prepared for use by early childhood educators.  It complements curriculum and features a continuum of developmental skills and shared language that supports early childhood educators across childhood settings.",
   buttonLabel: "Details",
   buttonColour: "yellowBtn",
-  imgStart: "start",
+  textStart: "",
   img: [
     "/images/RideauCanalFieldTrip.jpg",
     "/images/KindergartenProgram.jpg",
@@ -73,6 +73,7 @@ export const programObjThree = {
   ],
   modalLink: "/Contact",
   alt: "",
+  blockText: true,
 };
 
 export const programObjFour = {
@@ -88,7 +89,7 @@ export const programObjFour = {
   body3:
     "If your child has allergies of any kind, please advise the educators.  All allergies must be documented on the appropriate registration and medical forms.",
   textWarning: true,
-  imgStart: "",
+  textStart: "start",
   img: ["/images/CrackingEggs.jpg"],
   singleImg: true,
   alt: "Children crafting",
@@ -108,8 +109,9 @@ export const programObjFive = {
     "Applications will be processed internally, giving priority to siblings and those chilren who are registered at Lady Evelyn Alternative Public School.",
   body3:
     "Applications will be reviewed in order of the date on the Ottawa Child Care Registry and Waitlist.",
-  imgStart: "start",
+  textStart: "",
   img: ["/images/KidsWithCollie.jpg"],
   singleImg: true,
   alt: "Children playing with dog",
+  textWarning: true,
 };

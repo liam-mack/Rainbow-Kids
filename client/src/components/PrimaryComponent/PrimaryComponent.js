@@ -22,7 +22,7 @@ function PrimaryComponent({
   buttonLink,
   img,
   alt,
-  imgStart,
+  textStart,
   includesList,
   includesHeaders,
   header1,
@@ -35,7 +35,8 @@ function PrimaryComponent({
   modalBody,
   modalFooter,
   modalLink,
-  textWarning
+  textWarning,
+  blockText
 }) {
   const [modalisOpen, setModalIsOpen] = useState(false);
   const [modalContent, setProgramModal] = useState({
@@ -65,7 +66,7 @@ function PrimaryComponent({
   }
   return (
     <>
-      <div 
+      <div
         className={
           bgColour
             ? `primary__hero-section ${bgColour}`
@@ -73,68 +74,16 @@ function PrimaryComponent({
         }
       >
         <div className="container">
-          <h1 className={lightText ? "top-line" : "top-line dark"}>{topLine}</h1>
+          <h1 className={lightText ? "top-line" : "top-line dark"}>
+            {topLine}
+          </h1>
           <div
             className="row primary__hero-row"
             style={{
               display: "flex",
-              flexDirection: imgStart === "start" ? "row-reverse" : "row",
+              flexDirection: textStart === "start" ? "row-reverse" : "row",
             }}
           >
-            {body && (
-              <div className="col">
-                <div className="primary__hero-text-wrapper">
-                  <h1 className={lightText ? "heading" : "heading dark"}>
-                    {headline}
-                  </h1>
-                  {includesHeaders && (
-                    <h1
-                      className={lightText ? "subHeading" : "subHeading dark"}
-                    >
-                      {header1}
-                    </h1>
-                  )}
-                  <p
-                    className={
-                      lightTextDescription
-                        ? "primary__hero-body"
-                        : "primary__hero-body dark"
-                    }
-                  >
-                    {body}
-                  </p>
-                  {includesList && (
-                    <ul className="styledList">
-                      {listArray.map(function (i, idx) {
-                        return (
-                          <li className={`rainbow li${idx}`} key={idx}>
-                            <p>{i}</p>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  )}
-                  {includesHeaders && (
-                    <h1 className="subHeading dark">{header2}</h1>
-                  )}
-                  <p className="primary__hero-body dark">{body2}</p>
-                  <p
-                    className={
-                      textWarning
-                        ? "primary__hero-body bold"
-                        : "primary__hero-body dark"
-                    }
-                  >
-                    {body3}
-                  </p>
-                  {buttonLink && (
-                    <Link to={buttonLink}>
-                      <Button buttonColour={buttonColour}>{buttonLabel}</Button>
-                    </Link>
-                  )}
-                </div>
-              </div>
-            )}
             {img && (
               <div className="col">
                 {img.map(function (image, idx) {
@@ -196,6 +145,123 @@ function PrimaryComponent({
                 })}
               </div>
             )}
+            {body && (
+              <div className={blockText ? "column" : "col"}>
+                <div className="primary__hero-text-wrapper">
+                  {headline && (
+                    <h1 className={lightText ? "heading" : "heading dark"}>
+                      {headline}
+                    </h1>
+                  )}
+                  {includesHeaders && (
+                    <h1
+                      className={lightText ? "subHeading" : "subHeading dark"}
+                    >
+                      {header1}
+                    </h1>
+                  )}
+                  <p
+                    className={
+                      lightTextDescription
+                        ? "primary__hero-body"
+                        : "primary__hero-body dark"
+                    }
+                  >
+                    {body}
+                  </p>
+                  {includesList && (
+                    <ul className="styledList">
+                      {listArray.map(function (i, idx) {
+                        return (
+                          <li className={`rainbow li${idx}`} key={idx}>
+                            <p>{i}</p>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  )}
+                  {includesHeaders && (
+                    <h1 className="subHeading dark">{header2}</h1>
+                  )}
+                  <p className="primary__hero-body dark">{body2}</p>
+                  <p
+                    className={
+                      textWarning
+                        ? "primary__hero-body bold"
+                        : "primary__hero-body dark"
+                    }
+                  >
+                    {body3}
+                  </p>
+                  {buttonLink && (
+                    <Link to={buttonLink}>
+                      <Button buttonColour={buttonColour}>{buttonLabel}</Button>
+                    </Link>
+                  )}
+                </div>
+              </div>
+            )}
+            {/* {img && (
+              <div className="col">
+                {img.map(function (image, idx) {
+                  return (
+                    <div
+                      className={
+                        singleImg
+                          ? "primary__hero-img-single"
+                          : "primary__hero-img-multi"
+                      }
+                      key={idx}
+                    >
+                      <img
+                        src={image}
+                        alt={idx}
+                        className={
+                          isStaff ? "primary__pic-staff" : "primary__pic-img"
+                        }
+                      />
+                      {title && (
+                        <p
+                          className={
+                            lightText ? "pictureHeading" : "pictureHeading dark"
+                          }
+                        >
+                          {title[idx]}
+                        </p>
+                      )}
+                      {subtitle && (
+                        <p
+                          className={
+                            lightText
+                              ? "pictureSubtitle"
+                              : "pictureSubtitle dark"
+                          }
+                        >
+                          {subtitle[idx]}
+                        </p>
+                      )}
+
+                      {modalBody && (
+                        <Button
+                          buttonColour={buttonColour}
+                          onClick={() =>
+                            modalClick(
+                              title[idx],
+                              subtitle[idx],
+                              modalBody[idx],
+                              modalFooter[idx],
+                              image
+                            )
+                          }
+                        >
+                          {buttonLabel}
+                        </Button>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )} */}
             {logo && (
               <div className="primary__hero-img-single">
                 <img src={logo} alt={logo} className="primary__hero-img" />
