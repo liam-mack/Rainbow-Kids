@@ -8,8 +8,7 @@
 .textless {
     position: relative;
     .slideText {
-        position: absolute;
-        bottom: 0
+        margin-bottom: 1em;
     }
 }
 
@@ -19,7 +18,9 @@
   margin: auto 0 auto 0;
   font-family: "Montserrat";
   font-style: italic;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .slideImg {
@@ -35,8 +36,8 @@
   }
 
   .slideText {
-    width: 100%;
-    font-size: 1em;
+    width: 90%;
+    font-size: 0.8em;
     margin: auto;
     // position: absolute;
     // top: 60%;
