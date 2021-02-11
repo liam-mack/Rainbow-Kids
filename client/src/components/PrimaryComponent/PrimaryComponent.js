@@ -78,7 +78,7 @@ function PrimaryComponent({
             {topLine}
           </h1>
           <div
-            className="row primary__hero-row"
+            className={blockText ? "row primary__hero-row programsRow" : "row primary__hero-row"}
             style={{
               display: "flex",
               flexDirection: textStart === "start" ? "row-reverse" : "row",

@@ -39,6 +39,7 @@ small {
 .primary__hero-row {
   align-items: center;
 }
+
 .row {
   display: flex;
 //   margin-right: -15px;
@@ -46,6 +47,9 @@ small {
 //   margin-left: -15px;
   flex-wrap: wrap;
   align-items: stretch;
+}
+.programsRow{
+  flex-direction: column-reverse !important;
 }
 
 // Fix: COL MAX WIDTH
@@ -60,6 +64,8 @@ small {
 
 .column {
   margin: auto;
+  display: flex;
+  // flex: column;
   // text-align: center;
   p{
     width:110%
@@ -319,6 +325,10 @@ img {
 
 // Modal Breakpoints - Mobile First (TYBG)
 @media screen and (min-width: 768px) {
+  
+  .programsRow {
+    flex-direction: row !important;
+  }
   
   .col .primary__hero-text-wrapper {
       max-width: 90%;
