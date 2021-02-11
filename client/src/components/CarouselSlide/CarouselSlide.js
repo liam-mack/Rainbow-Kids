@@ -3,7 +3,7 @@ import "./CarouselSlide.scss";
 
 function CarouselSlide({ body, img }) {
     return (
-        <div className="slideCol">
+        <div className={img ? "slideCol" : "slideCol textless"}>
             <div className="slideText">
                 {body}
             </div>            

@@ -5,6 +5,14 @@
   min-height: 100%;
 }
 
+.textless {
+    position: relative;
+    .slideText {
+        position: absolute;
+        bottom: 0
+    }
+}
+
 .slideText {
   display: flex;
   width: 50%;
@@ -29,6 +37,7 @@
   .slideText {
     width: 100%;
     font-size: 1em;
+    margin: auto;
     // position: absolute;
     // top: 60%;
   }
