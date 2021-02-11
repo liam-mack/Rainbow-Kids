@@ -28,7 +28,7 @@ $purple: rgba(102, 45, 145, 0.65);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 10%;
+    // width: 10%;
     height: 80%;
     background: none;
     color: #ffffff;
@@ -51,4 +51,10 @@ $purple: rgba(102, 45, 145, 0.65);
 #slideRight{
     right: 0;
     @extend %btn-styles;
+}
+
+@media screen and (min-width: 768px) {
+    %btn-styles{
+        width: 10%;
+    }
 }

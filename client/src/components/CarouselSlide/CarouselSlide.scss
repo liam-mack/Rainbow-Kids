@@ -1,23 +1,40 @@
-.slideCol{
-    display: flex;
-    justify-content: center;
-    max-height: 100%;
-    min-height: 100%;
+.slideCol {
+  display: flex;
+  justify-content: center;
+  max-height: 100%;
+  min-height: 100%;
 }
 
-.slideText{
-    display: flex;
-    width: 50%;
-    margin: auto 0 auto 0;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-size: 1.5em; 
+.slideText {
+  display: flex;
+  width: 50%;
+  margin: auto 0 auto 0;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 1.5em;
 }
 
-.slideImg{
-    margin-left: 3em;
-    max-height: 100%;
-    max-width: 375px;
-    float: right
+.slideImg {
+  margin-left: 3em;
+  max-height: 100%;
+  max-width: 375px;
+  float: right;
 }
 
+@media screen and (max-width: 768px) {
+  .slideCol {
+    flex-direction: column-reverse;
+  }
+
+  .slideText {
+    width: 100%;
+    font-size: 1em;
+    position: absolute;
+    top: 60%;
+  }
+
+  .slideImg {
+    margin: auto;
+    max-width: 200px;
+  }
+}
