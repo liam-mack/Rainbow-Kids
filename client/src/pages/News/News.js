@@ -39,9 +39,9 @@ function About() {
       <div className="container eventSection">
         <h1>Upcoming Events</h1>
         <div className="upcomingWrapper">
-          <UpcomingEvent day="08" title="Team Meeting"/>
-          <UpcomingEvent day="15" title="Team Meeting"/>
           <UpcomingEvent day="16" title="Speaker - Sara Fortier"/>
+          <UpcomingEvent day="16" title="Team Meeting"/>
+          <UpcomingEvent day="23" title="Team Meeting"/>
         </div>
         <Button
           buttonColour="calendarBtn"
