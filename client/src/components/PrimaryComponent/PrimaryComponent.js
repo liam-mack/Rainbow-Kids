@@ -36,7 +36,7 @@ function PrimaryComponent({
   modalFooter,
   modalLink,
   textWarning,
-  blockText
+  blockText,
 }) {
   const [modalisOpen, setModalIsOpen] = useState(false);
   const [modalContent, setProgramModal] = useState({
@@ -78,7 +78,11 @@ function PrimaryComponent({
             {topLine}
           </h1>
           <div
-            className={blockText ? "row primary__hero-row programsRow" : "row primary__hero-row"}
+            className={
+              blockText
+                ? "row primary__hero-row programsRow"
+                : "row primary__hero-row"
+            }
             style={{
               display: "flex",
               flexDirection: textStart === "start" ? "row-reverse" : "row",
@@ -283,7 +287,7 @@ function PrimaryComponent({
                   className="programModalClose"
                   onClick={() => setModalIsOpen(false)}
                 >
-                  ✖
+                  <i class="fa fa-times" aria-hidden="true"></i>
                 </div>
                 <div className="modal-col">
                   <img
