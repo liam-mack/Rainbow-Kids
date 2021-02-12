@@ -19,7 +19,7 @@ export const aboutObjTwo= {
     textStart: "",
     img: ["/images/StaffReading.jpg"],
     singleImg: true,
-    alt: ""
+    alt: ["Staff reading with children"]
 }
 
 export const aboutObjThree= { 
@@ -32,7 +32,7 @@ export const aboutObjThree= {
     textStart: "start",
     img: ["/images/Volunteers.jpg"],
     singleImg: true,
-    alt: ""
+    alt: ["Carleton Ravens volunteer with children"]
 }
 
 export const aboutObjFour= { 
@@ -45,7 +45,7 @@ export const aboutObjFour= {
     textStart: "",
     img: ["/images/ParentPicture.jpg"],
     singleImg: true,
-    alt: ""
+    alt: ["Walking with children along Rideau Canal"]
 }
 
 

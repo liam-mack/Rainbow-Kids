@@ -4,7 +4,7 @@ import "./BannerImage.scss"
 const BannerImage = (props) => {
 
   return (
-    <div className= {props.banner} >
+    <div className= {props.banner} alt={props.banner}>
       <h1 className="BannerTitle">{props.title}</h1>
       <p className="BannerDescription">{props.desc}</p>
     </div>

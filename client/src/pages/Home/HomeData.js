@@ -25,7 +25,7 @@ export const homeObjTwo= {
     img: ["/images/RideauCanalFieldTrip.jpg", "/images/KindergartenProgram.jpg", "/images/SchoolAge.jpg"],
     title: ["Preschool Program", "Kindergarten Program", "School Age Program"],
     subtitle: ["2.5 to 5 years of age", "4 to 5 years of age", "6 to 12 years of age"],
-    alt: ""
+    alt: ["Rideau Canal Field Trip", "Kindergarten children outside", "School age children doing activities"]
 }
 
 export const homeObjThree = {
@@ -40,7 +40,7 @@ export const homeObjThree = {
     textStart: "start",
     img: ["/images/MainEventBooth.jpg"],
     singleImg: true,
-    alt: ""
+    alt: ["Rainbow Kidschool Event Booth"]
 }
 
 export const homeObjFour= { 
@@ -58,7 +58,7 @@ export const homeObjFour= {
     img: ["/staffimages/Roxeanne.gif", "/staffimages/Lara.gif", "/staffimages/Jennifer.JPG", ],
     title: ["Roxeanne", "Lara", "Jennifer"],
     subtitle: ["Director, RECE", "RECE", "RECE"],
-    alt: ""
+    alt: ["Roxeanne-staff", "Lara-staff", "Jennifer-staff"],
 }
 
 export const homeObjFive= { 
@@ -73,7 +73,7 @@ export const homeObjFive= {
     buttonLink: "/Contact",
     buttonColour: "limeBtn",
     textStart: "",
-    alt: "",
+    alt: ["Rainbow Kidschool Logo"],
     logo: logo,
     singleImg: true,
 }

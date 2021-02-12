@@ -102,7 +102,7 @@ function PrimaryComponent({
                     >
                       <img
                         src={image}
-                        alt={idx}
+                        alt={alt[idx]}
                         className={
                           isStaff ? "primary__pic-staff" : "primary__pic-img"
                         }
@@ -205,70 +205,9 @@ function PrimaryComponent({
                 </div>
               </div>
             )}
-            {/* {img && (
-              <div className="col">
-                {img.map(function (image, idx) {
-                  return (
-                    <div
-                      className={
-                        singleImg
-                          ? "primary__hero-img-single"
-                          : "primary__hero-img-multi"
-                      }
-                      key={idx}
-                    >
-                      <img
-                        src={image}
-                        alt={idx}
-                        className={
-                          isStaff ? "primary__pic-staff" : "primary__pic-img"
-                        }
-                      />
-                      {title && (
-                        <p
-                          className={
-                            lightText ? "pictureHeading" : "pictureHeading dark"
-                          }
-                        >
-                          {title[idx]}
-                        </p>
-                      )}
-                      {subtitle && (
-                        <p
-                          className={
-                            lightText
-                              ? "pictureSubtitle"
-                              : "pictureSubtitle dark"
-                          }
-                        >
-                          {subtitle[idx]}
-                        </p>
-                      )}
-
-                      {modalBody && (
-                        <Button
-                          buttonColour={buttonColour}
-                          onClick={() =>
-                            modalClick(
-                              title[idx],
-                              subtitle[idx],
-                              modalBody[idx],
-                              modalFooter[idx],
-                              image
-                            )
-                          }
-                        >
-                          {buttonLabel}
-                        </Button>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            )} */}
             {logo && (
               <div className="primary__hero-img-single">
-                <img src={logo} alt={logo} className="primary__hero-img" />
+                <img src={logo} alt={alt[0]} className="primary__hero-img" />
               </div>
             )}
 

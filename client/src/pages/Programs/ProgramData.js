@@ -9,7 +9,7 @@ export const programObjOne = {
   textStart: "start",
   img: ["/images/KidsWithSlime.jpg"],
   singleImg: true,
-  alt: "Children crafting",
+  alt: ["Children crafting"],
 };
 
 export const programObjTwo = {
@@ -35,7 +35,7 @@ export const programObjTwo = {
   textStart: "",
   img: ["/images/KidsShovelling.jpg"],
   singleImg: true,
-  alt: "Children shovelling garden",
+  alt: ["Children shovelling garden"],
 };
 
 export const programObjThree = {
@@ -72,7 +72,7 @@ export const programObjThree = {
     "Non-school days allow the children the opportunity to plan for and participate in a relaxing day of activities that they are interested in. Whether it be pyjama parties, building forts, or hosting cookoffs;  the children in the program manage to come up with their own fantastic activities which the educators help facilitate.",
   ],
   modalLink: "/Contact",
-  alt: "",
+  alt: ["Preschool Program Image", "Kindergarten Program Image", "School Age Program image"],
   blockText: true,
 };
 
@@ -92,7 +92,7 @@ export const programObjFour = {
   textStart: "start",
   img: ["/images/CrackingEggs.jpg"],
   singleImg: true,
-  alt: "Children crafting",
+  alt: ["Children cracking eggs with staff"],
   includesHeaders: true,
   header1: "Lunch",
   header2: "Snack",
@@ -112,6 +112,6 @@ export const programObjFive = {
   textStart: "",
   img: ["/images/KidsWithCollie.jpg"],
   singleImg: true,
-  alt: "Children playing with dog",
+  alt: ["Children playing with dog"],
   textWarning: true,
 };
