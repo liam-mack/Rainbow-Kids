@@ -8,5 +8,5 @@ export const staffObj= {
     textStart: "start",
     logo: logo,
     singleImg: true,
-    // alt: "Rainbow Kidschool Logo"
+    alt: ["Rainbow Kidschool Logo"]
 }
