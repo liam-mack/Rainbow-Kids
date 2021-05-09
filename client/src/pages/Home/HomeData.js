@@ -68,7 +68,7 @@ export const homeObjFive= {
     // headline: "Contact Us",
     body: 'Get in touch to see how our program can benefit your child, and learn more about our programs!',
     body2: '613-235-2255',
-    body3: 'rainbowkidschool@email.com',
+    body3: 'carletonpreschool@gmail.com',
     buttonLabel: "Read More",
     buttonLink: "/Contact",
     buttonColour: "limeBtn",

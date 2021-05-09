@@ -17,6 +17,9 @@ function Timeline() {
                     <li class="event" data-date="1999">
                         <p>In 1999, <strong>Carleton Preschool</strong> underwent a program name change and now operates under the name of <strong>Rainbow Kidschool</strong>. Carleton Preschool holds the licence for Rainbow Kidschool.</p>
                     </li>
+                    <li class="event" data-date="2019">
+                        <p>In January of 2019 we expanded <strong> Rainbow Kidschool </strong> and began offering a <strong>Full Day Preschool Program </strong>for families in the community</p>
+                    </li>
                 </ul>
             </div>
         </>

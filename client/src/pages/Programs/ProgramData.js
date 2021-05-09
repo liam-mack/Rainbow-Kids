@@ -5,7 +5,7 @@ export const programObjOne = {
   body:
     "Our developmental approach stimulates a love of learning in a way that allows children to progress at their own rate. We address the full range of child development needs; emotional, social, physical and cognitive which are the foundation to the building of self-confidence and personal esteem, nurturing each child to feel good about himself/ herself.",
   body2:
-    "Our approach engages children in small group events (music, story telling, games, show and tell) that encourages accepting suggestions and directions from others, listening attentively, interacting positively with peers, respectingadults other than parents and recognizing their valued membership and contribution in broader social groups.",
+    "Our approach follows the Ministry guidelines that stimulates a love of learning in a way that allows children to gpreoss at their own rate. Our staff provide learning opportunities based on HDLH (How Does Learning Happen). Through observations our educators use the children's interests to plan structured and unstructured activities that help meet the emotional, social, physical, and cognitive developmental needs of the children. These are teh foundations to the building of self-confidence and personal esteem, thereby nurturing each child to feel good about themselves.",
   textStart: "start",
   img: ["/images/KidsWithSlime.jpg"],
   singleImg: true,
@@ -46,7 +46,7 @@ export const programObjThree = {
   topLine: "Program Offerings",
   // headline: "Program Offerings",
   body:
-    "Early Learning for Every Child Today (ELECT) is a guide that describes how young children learn and develop and is used to support curriculum in Ontario’s early childhood settings.  ELECT is intended as a support to the Ontario Day Nurseries Act and has been prepared for use by early childhood educators.  It complements curriculum and features a continuum of developmental skills and shared language that supports early childhood educators across childhood settings.",
+    "Early Learning for Every Child Today (ELECT) is a guide that describes how young children learn and develop and is intended to support Ontario’s Child Care Early Years Act and the How Does Learning Happen (HDHL) curriculum in Ontario's early child settings. ELECT complements curriculum and features a continuum of developmental skills and shared language that supports registed early childhood educators (RECE) across the province.  ELECT is intended as a support to the Ontario Day Nurseries Act and has been prepared for use by early childhood educators.  It complements curriculum and features a continuum of developmental skills and shared language that supports early childhood educators across childhood settings.",
   buttonLabel: "Details",
   buttonColour: "yellowBtn",
   textStart: "",
@@ -85,7 +85,7 @@ export const programObjFour = {
   body:
     "We provide a nutritious mid-day meal for the preschool children prepared onsite.",
   body2:
-    "Nutritious snacks are served daily; one in the morning program, and one in each of the afternoon programs. The snack menu is posted in advance of the parent bulletin board. Should circumstances (allergy/dieatry restriction) prevent a child from having a particular snack, the centre will provide a substitute.",
+    "Nutritious snacks are served daily; one in the morning program, and one in each of the afternoon programs. The snack menu is posted in advance on the parent bulletin board. Should circumstances (allergy/dietary restriction) prevent a child from having a particular snack, the centre will provide a substitute.",
   body3:
     "If your child has allergies of any kind, please advise the educators.  All allergies must be documented on the appropriate registration and medical forms.",
   textWarning: true,
@@ -104,11 +104,12 @@ export const programObjFive = {
   topLine: "Registration",
   // headline: "Registration",
   body:
-    "Families who are interested in Rainbow Kidschool are most welcome to a visit at any time. To arrange a visit or for information about registration or any aspect of the Rainbow Kidschool program, please call 613-235-2255.",
+    "Families who are interested in Rainbow Kidschool are most welcome to a visit at any time. To arrange a visit or for information about registration or any aspect of the Rainbow Kidschool program, please call 613-235-2255. Those families wishing to register with Carleton Preschool - Rainbow Kidschool should register with Ottawa Child Care Registry and Waitlist at LINK",
   body2:
-    "Applications will be processed internally, giving priority to siblings and those chilren who are registered at Lady Evelyn Alternative Public School.",
+    "Applications will be processed internally, giving priority to siblings and those chilren who are registered at Lady Evelyn Alternative Public School. ",
   body3:
     "Applications will be reviewed in order of the date on the Ottawa Child Care Registry and Waitlist.",
+
   textStart: "",
   img: ["/images/KidsWithCollie.jpg"],
   singleImg: true,

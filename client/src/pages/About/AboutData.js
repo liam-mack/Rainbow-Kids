@@ -40,7 +40,7 @@ export const aboutObjFour= {
     lightTextDescription: false,
     // headline: "Parents & Guardians",
     topLine: "Parents & Guardians",
-    body: "Parents are an important component of the Rainbow Kidschool   community. Those with special talents and interests come into the classroom to share them with the children. We also welcome all parents on field trips and invite them toparticipate in special events held by the centre from time to time. A Board of Directors, made up of parents, community members and educators, ensures the efficient operation of the school.",
+    body: "Parents are an important component of the Rainbow Kidschool   community. Those with special talents and interests come into the classroom to share them with the children. We also welcome all parents on field trips and invite them to participate in special events held by the centre from time to time. A Board of Directors, made up of parents, community members and educators, ensures the efficient operation of the school.",
     body2: "All issues and concerns raised by parents/guardians are taken seriously by Rainbow Kidschool and will be addressed. Every effort will be made to address and resolve issues and concerns to the satisfaction of all parties and as quickly as possible.",
     textStart: "",
     img: ["/images/ParentPicture.jpg"],

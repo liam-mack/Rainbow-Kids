@@ -30,7 +30,7 @@
     border-radius: 3%;
     position: relative;
     transition: all 0.5s ease;
-    padding: 2em 0;
+    padding: 0.8em 0;
 }
 
 .modal-name{
@@ -43,13 +43,14 @@
 
 .modalText{
     font-size: .7em;
-    padding: 0 3em 1em 3em
+    padding: 0 3em;
+    text-align:justify        
 }
 
 .modal-profile {
     margin-top: 0.5em;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 225px;
+    max-height: 225px;
     border-radius: 50%;
 }
 
@@ -94,12 +95,16 @@
 
 @media screen and (min-width: 1000px) {
     .staffModal{
-        max-width: 50%;
+        max-width: 65%;
     }
 }
 @media screen and (min-width: 1300px) {
     .staffModal{
-        max-width: 40%;
+        max-width: 35%;
+        margin-top: 8em;
+    }
+    .modalText{
+        padding: 0 4em;
     }
 }
 

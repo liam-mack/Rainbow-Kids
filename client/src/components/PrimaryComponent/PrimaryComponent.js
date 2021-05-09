@@ -17,6 +17,8 @@ function PrimaryComponent({
   body,
   body2,
   body3,
+  icon,
+  icon2,
   buttonLabel,
   buttonColour,
   buttonLink,
@@ -173,6 +175,24 @@ function PrimaryComponent({
                   >
                     {body}
                   </p>
+                  {icon && (
+                    <>
+                    <p
+                      className="dark"
+                    >
+                      {icon}
+                    </p>
+                    <p
+                      className={
+                        lightTextDescription
+                          ? "primary__hero-body"
+                          : "primary__hero-body dark"
+                      }
+                    >
+                      {icon2}
+                    </p>
+                    </>
+                  )}
                   {includesList && (
                     <ul className="styledList">
                       {listArray.map(function (i, idx) {
