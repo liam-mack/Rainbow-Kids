@@ -304,7 +304,7 @@ img {
 }
 
 .modal-program-title {
-  margin: 0.5em 0 0 0;
+  margin: 0.1em 0 0 0;
   font-size: 2em;
 }
 
@@ -316,6 +316,7 @@ img {
 .modal-program-description {
   margin: 0 2em 0 2em;
   font-size: 0.7em;
+  text-align: justify;
 }
 
 // .modalClose {
@@ -346,7 +347,7 @@ img {
     border-radius: 34px 0 0 34px;
   }
   .modal-col-text {
-    padding: 1em;
+    padding: 0 1em 1em 1em;
   }
   .modal-program-title {
     font-size: 2em;
@@ -355,7 +356,7 @@ img {
     font-size: 1em;
   }
   .modal-program-description {
-    font-size: 0.8em;
+    font-size: 0.75em;
   }
   .programModalClose {
     color: #c4c4c4;
