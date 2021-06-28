@@ -73,6 +73,12 @@ function NavTabs() {
                 Contact Us
               </Link>
             </li>
+            <li className="parentPortal">
+              <a href="https://redirect.digibotservices.ca/p/client/9374" target="_blank">Parents</a>
+            </li>
+            <li className="staffPortal">
+              <a href="https://redirect.digibotservices.ca/p/employee/9374" target="_blank">Staff</a>
+            </li>
           </ul>
         </div>
       </div>

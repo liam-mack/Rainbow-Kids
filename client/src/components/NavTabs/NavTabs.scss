@@ -4,6 +4,19 @@ $purple: rgba(102, 45, 145, 0.65);
 $lime: #e0e98f;
 $pink: rgba(237, 28, 36, 0.65);
 
+%portal-styles {
+  border-radius: 5px;
+  & a {
+    margin-bottom: 0;
+    text-decoration: none;
+    padding: 1em;
+    font-weight: bold;
+  }
+  &:hover {
+    border: none !important;
+  }
+}
+
 .navbar {
   background: #fff;
   height: 80px;
@@ -69,34 +82,45 @@ $pink: rgba(237, 28, 36, 0.65);
   border-bottom: 2px solid transparent;
 }
 
-.nav-item:nth-child(1):hover{
-    color: blue !important
+.parentPortal {
+  @extend %portal-styles;
+  background-color: yellow
 }
-.nav-item:nth-child(2):hover{
-    color: $pink !important
+
+.staffPortal {
+  @extend %portal-styles;
+  background-color: red;
+  & a {color: #ffffff !important};
 }
-.nav-item:nth-child(3):hover{
-    color: $yellow !important
+
+.nav-item:nth-child(1):hover {
+  color: blue !important;
 }
-.nav-item:nth-child(4):hover{
-    color: $purple !important
+.nav-item:nth-child(2):hover {
+  color: $pink !important;
 }
-.nav-item:nth-child(5):hover{
-    color: $peach !important
+.nav-item:nth-child(3):hover {
+  color: $yellow !important;
 }
-.nav-item:nth-child(6):hover{
-    color: $lime !important
+.nav-item:nth-child(4):hover {
+  color: $purple !important;
+}
+.nav-item:nth-child(5):hover {
+  color: $peach !important;
+}
+.nav-item:nth-child(6):hover {
+  color: $lime !important;
 }
 
 @media screen and (min-width: 960px) {
   .nav-item {
     margin-bottom: 2rem;
-    &:hover{
-        border-bottom: 2px solid;
+    &:hover {
+      border-bottom: 2px solid;
     }
   }
-  .nav-links:hover{
-      color: inherit;
+  .nav-links:hover {
+    color: inherit;
   }
 }
 
@@ -122,7 +146,7 @@ $pink: rgba(237, 28, 36, 0.65);
 /* Fix: Temporary responsive scaling */
 @media screen and (max-width: 1360px) {
   .nav-links {
-      font-size: .5em
+    font-size: 0.5em;
   }
 }
 
@@ -131,7 +155,7 @@ $pink: rgba(237, 28, 36, 0.65);
     position: relative;
   }
 
-  .navbar-container{
+  .navbar-container {
     width: 0;
     transition: all 0.5s ease;
   }
@@ -156,6 +180,12 @@ $pink: rgba(237, 28, 36, 0.65);
     transition: all 0.6s ease;
     z-index: 1;
     padding: 0;
+
+    .staffPortal,.parentPortal{
+      width: 100%;
+      padding: 1em
+    }
+
   }
 
   .nav-links {
@@ -201,4 +231,3 @@ $pink: rgba(237, 28, 36, 0.65);
     height: 120px;
   }
 }
-

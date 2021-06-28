@@ -1,27 +1,15 @@
 import React, { useState } from "react";
-import Modal from "react-modal";
 import { Button } from "../../components/Button/Button";
 import ScrollToTopOnMount from "../../components/ScrollToTopOnMount/ScrollToTopOnMount";
 import Footer from "../../components/Footer/Footer";
-import UpcomingEvent from "../../components/UpcomingEvent/UpcomingEvent";
 import PrimaryComponent from "../../components/PrimaryComponent/PrimaryComponent";
 import Carousel from "../../components/Carousel/Carousel";
 import { newsObjOne } from "./NewsData.js";
 import "./News.css";
 
-Modal.setAppElement("#root");
 
 // Fix: Light text to picture descriptions
 function About() {
-  const [modalisOpen, setModalIsOpen] = useState(false);
-
-  function openModal() {
-    setModalIsOpen(true);
-  }
-
-  function closeModal() {
-    setModalIsOpen(false);
-  }
 
   // const gapi = window.gapi;
   // const CLIENT_ID = "848448063852-m1va03bbkkmj01sjfpomkf8moqsvaspd.apps.googleusercontent.com";
@@ -37,39 +25,17 @@ function About() {
       </div>
       <Carousel />
       <div className="container eventSection">
-        <h1>Upcoming Events</h1>
-        <div className="upcomingWrapper">
-          <UpcomingEvent day="16" title="Speaker - Sara Fortier"/>
-          <UpcomingEvent day="16" title="Team Meeting"/>
-          <UpcomingEvent day="23" title="Team Meeting"/>
-        </div>
-        <Button
-          buttonColour="calendarBtn"
-          onClick={openModal}
-          style={{ margin: "auto" }}
-        >
-          Full Calendar
-        </Button>
-        <Modal
-          className="calendarModal"
-          isOpen={modalisOpen}
-          onRequestClose={() => setModalIsOpen(false)}
-          style={{
-            overlay: {
-              backgroundColor: "rgba(0, 0, 0, 0.5)",
-            },
-          }}
-        >
+        {/* <h1 style={{textAlign:"center"}}>Keep up with us</h1> */}
+        <h1 style={{textAlign:"center"}}>Events Calendar</h1>
           <div className="responsiveCal">
             <iframe
-              src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=NDdiMWNkMWc2dGk2ZWYxZzc2ZmtuNWxlcDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%239E69AF&amp;showTitle=0&amp;showNav=1&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showPrint=0"
+              src="https://calendar.google.com/calendar/embed?src=b5uqj9osvtsstl8ggtk1bie2dc%40group.calendar.google.com&ctz=America%2FToronto&amp;showTitle=0&amp;showNav=1&amp;showTabs=0showCalendars=0&amp;showTz=0&amp;showPrint=0"
               width="800"
               height="600"
               frameborder="0"
               scrolling="no"
             ></iframe>{" "}
           </div>
-        </Modal>
       </div>
       <PrimaryComponent {...newsObjOne} />
 
