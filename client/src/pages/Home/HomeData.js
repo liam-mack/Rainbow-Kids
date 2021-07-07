@@ -55,7 +55,7 @@ export const homeObjFour= {
     buttonLink: "/Staff",
     buttonColour: "staffBtn",
     textStart: "",
-    img: ["/staffimages/Roxeanne.gif", "/staffimages/Lara.gif", "/staffimages/Jennifer.JPG", ],
+    img: ["/staffimages/Roxeanne.gif", "/staffimages/Lara.gif", "/staffimages/Jennifer.gif", ],
     title: ["Roxeanne", "Lara", "Jennifer"],
     subtitle: ["Director, RECE", "RECE", "RECE"],
     alt: ["Roxeanne-staff", "Lara-staff", "Jennifer-staff"],
